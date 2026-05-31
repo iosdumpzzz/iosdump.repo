@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"/>
+    <title>AAA's iosdump</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Arial', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-container {
+            text-align: center;
+            padding: 50px 30px;
+            background-color: #ffffff;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+            border-radius: 25px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .top-title {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .repo-subtitle {
+            font-size: 42px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+
+        /* 源按钮样式 */
+        .add-source-btn {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #fff;
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 50px;
+            font-weight: 600;
+        }
+
+        .add-source-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(52, 152, 219, 0.3);
+        }
+
+        .add-source-btn i {
+            margin-right: 10px;
+        }
+
+        .contact-section {
+            border-top: 1px solid #eee;
+            padding-top: 30px;
+            text-align: center;
+        }
+
+        .contact-title {
+            font-size: 20px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .infringement-tip {
+            font-size: 14px;
+            color: #95a5a6;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-link {
+            display: inline-flex;
+            align-items: center;
+            font-size: 16px;
+            color: #3498db;
+            text-decoration: none;
+            margin-bottom: 10px;
+            transition: color 0.3s;
+        }
+
+        .contact-link:hover {
+            color: #2980b9;
+        }
+
+        .contact-link i.fa-paper-plane {
+            width: 20px;
+            margin-right: 10px;
+            text-align: center;
+        }
+
+        /* 适配小屏幕 */
+        @media (max-width: 375px) {
+            .top-title {
+                font-size: 28px;
+            }
+            .repo-subtitle {
+                font-size: 36px;
+            }
+            .add-source-btn {
+                font-size: 18px;
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <!-- 置顶标题 -->
+        <h1 class="top-title">iosdump</h1>
+        <p class="repo-subtitle">越狱源</p>
+
+        <a href="sileo://source/https://iosdumpzzz.github.io/iosdump.repo/" class="add-source-btn">
+            <i class="fa fa-download"></i>添加到 Sileo
+        </a>
+
+        <div class="contact-section">
+            <h3 class="contact-title">联系与声明
+            </h3>
+            <p class="infringement-tip">插件均为个人日常编写，完全免费使用，如有问题和更好的建议，请及时联系探讨。</p>
+            
+            <!-- Telegram联系方式 -->
+            <a href="tg://resolve?domain=iosdumpzzz" class="contact-link">
+                <i class="fa fa-paper-plane"></i>Telegram：@iosdump
+            </a>
+            <!-- 可选：加TG群组链接 -->
+            <!--
+            <a href="tg://join?invite=TG群组邀请码" class="contact-link">
+                <i class="fa fa-paper-plane"></i>TG群组：@TG群组名
+            </a>
+            -->
+        </div>
+    </div>
+</body>
+</html>
