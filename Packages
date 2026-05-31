@@ -1,3 +1,375 @@
+Package: com.iosdump.appdata
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.0.1_iphoneos-arm64e.deb
+Size: 318252
+MD5sum: ac70815687a57fc384e1362fd90c1437
+SHA1: 8cf8f4d166d624f9439b8fa262cf0b3e8d9889dd
+SHA256: 71b52a032c98ff6f87a361373f95dd44c3566c40050c9c927632677d2afc1aa0
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.0.1_iphoneos-arm.deb
+Size: 384990
+MD5sum: c47dabc89310ad7567fb56c8a018fb84
+SHA1: bda4c2935a9c8d4ad424954b60d817f02f274829
+SHA256: 70f09086482a4bee6a789cc8304ec4deecab02ffbbe7384ddba48344f396babc
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.0.1_iphoneos-arm64.deb
+Size: 385008
+MD5sum: ff0ac023ce07dd072ce9800f8dd16784
+SHA1: 7ec31146945cc7baa28a2f86946aa22d688372b0
+SHA256: 9598afa0fb7024c736292359ff9f9049d3b7aa76827b6fb0536cc4216d7bc47e
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.customcallbg
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 408
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.1_iphoneos-arm64e.deb
+Size: 40126
+MD5sum: 17428d7adebae39f07e3410f6d67fe04
+SHA1: bf35c069ed1f5ae7c2ccd6cac1b00e9f8c5b0ff5
+SHA256: 4c0c37dc0ffc019e7fc45e026c17fd3816cf1987999ceb7077405b632e9efda6
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 408
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.1_iphoneos-arm64.deb
+Size: 28926
+MD5sum: a3c36238b6bcd93bb2554078c0a8d4f2
+SHA1: 0e84e91696c9f653b7ae1f4fe2519b52802f5b3e
+SHA256: fb40e55d184f0c6f2bed0f7b125b64ed2d350475c26d6dd1cc8364ce160ea039
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 408
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.1_iphoneos-arm.deb
+Size: 28850
+MD5sum: 0816aaa2fa9dd94a9e6110dd3265303b
+SHA1: a089ac5001dd69637a7e2b905bbd7a3dc292e3c0
+SHA256: d955f50173a9510dd6d93cffa87419155cedbd7c4c57e55d27f4076c56c86ea1
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.2_iphoneos-arm64.deb
+Size: 32734
+MD5sum: 9809fba0cd2f7806b99fd88855974b3c
+SHA1: 62ea5757e0a780734d4831e2155b5d5b949b207b
+SHA256: 1a670b364d56fb2b6c382187aa04f7818768463436988beac69e8cdd96a3c5d4
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.2_iphoneos-arm.deb
+Size: 32732
+MD5sum: f21d6b2c69d731c362446d3b2bbde936
+SHA1: a31cb643b2cdf6c281f861ea42943ed600ecb71f
+SHA256: 17dc6853d3081a6db10e457f79da1b6de313a88dd95779eb9a739d13db0e9c1f
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 424
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.2_iphoneos-arm64e.deb
+Size: 31088
+MD5sum: 1a66525de098ea3868e5d9c3cc48b89c
+SHA1: a638f755f2b42bf2b045e7e661808da23a9a6469
+SHA256: a923d7b75456395a2077685b8cfa4a73aaa16fa0667c287c901de7852d9225b2
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.3_iphoneos-arm.deb
+Size: 30630
+MD5sum: f911cda6ea0e5a08f120348c2d5e997e
+SHA1: 8f0ec30949c008b9dd197fef922ce75493b74f75
+SHA256: e887445afc7d1f2def790a87b4af7d26972c7dd5905ec04d8f7d5d6f25c7bc1b
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 408
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.3_iphoneos-arm64e.deb
+Size: 28954
+MD5sum: 7f601aaade69d595976d266b207dce36
+SHA1: c78cf1512498c45a4bc808283f50c87c71f7bd7a
+SHA256: 789a721be281ad1c7d3fed4b93119e8247b6f10876f352240b6042c631c79d32
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.3_iphoneos-arm64.deb
+Size: 30586
+MD5sum: eeb3d24208e0d6a73589ef427425a8c8
+SHA1: 241a8d78c63abaee727eee96fc770487942ca0e8
+SHA256: 1dbe37676ef6a6def24c18966e5a290dfe7a3379f74a969d16c1a4bc267122a9
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.4
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.4_iphoneos-arm64e.deb
+Size: 32050
+MD5sum: 0d05b311cd553c64e652aee245b8f641
+SHA1: 31f2c94266bc18ead44ad67005031ead63cdf2ac
+SHA256: 3f0d58108d8b7a02ed8d847031d7696671a77dfcd0f29e0a105067505b3bf077
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.4_iphoneos-arm.deb
+Size: 33962
+MD5sum: 89da498aa51378aaf7e1757fb30a7875
+SHA1: 3c9973bc7dafe524196112a089740b223e0b070c
+SHA256: 24f428739f5ff43ab25ad98bd30328b765165d8b42bdc37e1d2f83809397125a
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.4_iphoneos-arm64.deb
+Size: 33844
+MD5sum: c8dd096d8909985fe7d01682de0c5c54
+SHA1: 07ec37ae7593355fcdf505ebab04e475d5897733
+SHA256: 75950dbf9e20fb29afae62bcb21b3d4908072aea4f909092a12b164858a189aa
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.5_iphoneos-arm.deb
+Size: 41560
+MD5sum: fc858fa9b392d23d6f0870575cd59574
+SHA1: 36983d3a6088dab6d44b09bc5441d8a7ec1e7e4e
+SHA256: a7c34f6da8dd07066111cf6a7d8edb23147f97fa2aa2d554e8aaa16e1ad1319c
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.5_iphoneos-arm64.deb
+Size: 41346
+MD5sum: 391965c1386f43c102a83a04fc5b0ee7
+SHA1: 8a0d7542e4de4b4883792fb862d58dead6abb6fb
+SHA256: dbb5e29627d12a075e9bfa0974d0ccb9fd81de8db3cda17bf282f8ac12be2ebe
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.5
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.5_iphoneos-arm64e.deb
+Size: 39818
+MD5sum: 847d752462d9edd86f391aa85b13a1b0
+SHA1: 646d38c36950f26f3fdb8d6969da623d1341af1e
+SHA256: 1526958b3f01861d9b0bec81505148ffc6e4b23993399275e66f62ae045f4a3c
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.6
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64e.deb
+Size: 68088
+MD5sum: bc49bc7184659b981f51db39667948af
+SHA1: ff9f9ba66993f5a5f6e1aa2cf61c14e73d1231d0
+SHA256: d3e2eb92b2a62b38a4dbd585f58eefce6ea4e03d642479d34091e182f696725a
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.6
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm.deb
+Size: 70060
+MD5sum: 62fafbe68c89b85ded99806d3113f8e3
+SHA1: 6c0dfee747a9f5dd1b2c2d188ee5d27f41033ad2
+SHA256: 00b5907163a1c54cc8fbad2cba4ec3bdb865908fd091819ebda2b010307e3f53
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64.deb
+Size: 69734
+MD5sum: fc37959ebfe5a073fd3dafce64148c50
+SHA1: 955c7729c7a378b1cd3ccb4d69af98da40c528d0
+SHA256: 333760a89b0ae242c097dcfe7e320562b42da519da9b3b9abdaf78fb2d90f592
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.filzacarplugin
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 10644
+Filename: ./debs/com.iosdump.filzacarplugin_1.0.0_iphoneos-arm64.deb
+Size: 5421184
+MD5sum: 3d14d1a1c533f49dc6dcc88ad23b1e55
+SHA1: 77206928fc18ae50a21a2357be9703a6c76cb99b
+SHA256: fedf800f3de6eed4d9f683e9cdae4b5eee076a27c46c540a2efb0bfbf459c87d
+Section: Tweaks
+Description: 提取与修改 Assets.car 资源 (Filza 插件)
+Author: iosdump
+Name: FilzaCarPlugin
+
+Package: com.iosdump.filzacarplugin
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 10644
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.iosdump.filzacarplugin_1.0.0_iphoneos-arm64e.deb
+Size: 21339848
+MD5sum: 4db3207708255ca792ac6a15e31a0e0c
+SHA1: ae2f72ad878f8b0c188a5bb8c9f324b0a96acd25
+SHA256: 5e8742acda5c9526602e0d0223f4fa125c5635861f024da4456f6dba487f0cf3
+Section: Tweaks
+Description: 提取与修改 Assets.car 资源 (Filza 插件)
+Author: iosdump
+Name: FilzaCarPlugin
+
 Package: com.iosdump.filzaopen
 Version: 0.1
 Architecture: iphoneos-arm64e
@@ -11,4 +383,292 @@ SHA256: ec4eaacb25aa725fa56a60b85e20540efefc270799e0e44ac2d55f6f9cec05a5
 Section: Utilities
 Description: open <path> -> uiopen filza://... (shell wrapper for roothide/libiosexec environments)
 Name: Filza Open (shell)
+
+Package: com.iosdump.shellx
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_0.0.2_iphoneos-arm.deb
+Size: 72484
+MD5sum: 1bb57c2c1f6f57a4a5168d0f9e499d3a
+SHA1: 62d0bb55a72b8bd7e7e22e6c654350c4688eb1c3
+SHA256: d98fc3edc292c719e016e8b64fb7f7174d7276c2ff4f0d1ce5209adbe44558c1
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_0.0.2_iphoneos-arm64.deb
+Size: 72298
+MD5sum: 992c1eafa85a905292c5573203540595
+SHA1: cda43a920f5eb70da084b209d9a645906b25bbf6
+SHA256: a4125473b7dd4b598a962fb9985a29e9a6e81ebe87dcc2d0bdbd8e0ac35c0981
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_0.0.2_iphoneos-arm64e.deb
+Size: 70652
+MD5sum: 243f1d439042c5b5d20cf5fe96eced2e
+SHA1: a2bc1656f5d5de6b4401c04210fd945b1261ad08
+SHA256: acbd56c8f3f2f9778870cf139db98121f1672787876d79e76a72308c90692b4f
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_0.0.3_iphoneos-arm64e.deb
+Size: 71910
+MD5sum: e07b70eb84a834b51290d19af7e1b8cc
+SHA1: 11a1ce8c1204bcb673b14604dd578613005bbc68
+SHA256: b8c4cde03c20755fa341ca81bc12474d721f5762ea6c993b869e67043b178ac9
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_0.0.3_iphoneos-arm64.deb
+Size: 73650
+MD5sum: 5f3fc1a05acadcba2456d2473d50202a
+SHA1: c6f06681ecb07ca8446a3975d76be6163671fd43
+SHA256: 56355bc5dd81c841867a37cab28fed9b85df2e64a519268372bcaec564e7176b
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_0.0.3_iphoneos-arm.deb
+Size: 73708
+MD5sum: 2f47978caf1d5a39ad4d7df3b8e29365
+SHA1: 31891bec839837278b2bc105d53002293f0a518c
+SHA256: 6057610a43834ec2742b90fbd1a6ad401a7984af338df7b448e384e960a27306
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 0.0.5
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 608
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_0.0.5_iphoneos-arm64e.deb
+Size: 79990
+MD5sum: c6240cb0cd4aa3426e35c93f4fac2bc5
+SHA1: 73a6f8353480d6b2ecc492720ef2320c92fab5e6
+SHA256: 7b4e23fe0cda677282052b7c77071986c8bd33993622a9a288bdd3376918caff
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 608
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_0.0.5_iphoneos-arm.deb
+Size: 81686
+MD5sum: 290f58bf1877f8f3cc7aa696cf087242
+SHA1: 38a2d42f09d039cb49ed0bce3a8fc6fbe681d638
+SHA256: ae103c18d2b77716348763eebde1383bace2b604c19b2310db77de8ef67807cf
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 608
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_0.0.5_iphoneos-arm64.deb
+Size: 81438
+MD5sum: 7898f7f99bf48fb7f576a40a6af41e2e
+SHA1: 0b4772f947ddc7d23780cea9130647dd49b8dc38
+SHA256: ec0fd70e642b326fa16fede65bfc8cbce3ec9b934ddf17fa47016b28b3eb76df
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 780
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.0.0_iphoneos-arm.deb
+Size: 127256
+MD5sum: bb1d473cd53d3e40b0726244c8e27b46
+SHA1: 5c8c83914204c1c9cb99e6347f206ae077ddbe01
+SHA256: dab21962c0d3a91705e6b564522883bb89c942bc16105db63d300346ce382cfe
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 780
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.0.0_iphoneos-arm64.deb
+Size: 127250
+MD5sum: 95c22843f816a45317d6bea4fdc30470
+SHA1: 80baa485d2f6ede5f90b78d9a89018e42c8afc56
+SHA256: b0298098d37603794d3f18b9315903746fda4243f876d79fa8f0dbd597c0ade4
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.0.0_iphoneos-arm64e.deb
+Size: 126828
+MD5sum: 63387223d12630b55d7cc16a568ba34a
+SHA1: b37b681c2a52169b24b83a92520e813015b3820b
+SHA256: 41dec083e2a72b98015f841f4d0b4dd88f73bcfcde3639127cd10eea1f1e8330
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 796
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.1.0_iphoneos-arm64e.deb
+Size: 136262
+MD5sum: fe0cd964e6c9da9f36e449e24bd22b4a
+SHA1: d46bd22ae2b94fd715566e49600d43062483e95d
+SHA256: 7150486132a770f6bec79e0751bc078e848d04de2bb586a9e618dc22fb67168d
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 812
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.1.0_iphoneos-arm.deb
+Size: 136452
+MD5sum: 28d91e0839848e4787ebf43bb2163d0e
+SHA1: b12b68046ac5499bde446fb49ada906e7bef2e25
+SHA256: 8513f05ee4f0fd456788dcc26cfdab2a62e7358281ff092fb221b795af332f81
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 812
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.1.0_iphoneos-arm64.deb
+Size: 136686
+MD5sum: 09290b1e43a6c642565352f1813febba
+SHA1: 7128af2419c7e54b56a5de6ae874765f67d1f555
+SHA256: f4279c6d0b2c5283ddb6aeae8ba074ece5d7a8bcb2f4e6f35b602537d5b9ba70
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.trollcmtweak
+Version: 1.1.4
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.4_iphoneos-arm64.deb
+Size: 53572
+MD5sum: 7caf20be007f98251ea3d224f7a50f3e
+SHA1: 3fa7c15942fd77dec064b6129ed51307a011c4ea
+SHA256: ece1c17efefdd1dd8443079bfa9a9fa704f49f31585a6836bf22d4fdb816e9bb
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Author: iosdump
+Name: TrollCM
+
+Package: com.iosdump.trollcmtweak
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.4_iphoneos-arm.deb
+Size: 53546
+MD5sum: 2635e96efeee49c92306e70c03f4cb7c
+SHA1: 9cf9f73a14fc271e2e0ec2e748972f492d8a8b0a
+SHA256: 31c98862c932b9197321b408d60ebc8bf1507f48157f88fdafddfd6a04b64e80
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Author: iosdump
+Name: TrollCM
+
+Package: com.iosdump.trollcmtweak
+Version: 1.1.4
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.4_iphoneos-arm64e.deb
+Size: 53322
+MD5sum: 98f96bd91315529ea62d75306b97bcd5
+SHA1: f293afc1066377f5d6e64a1aa45216da7a718a45
+SHA256: 3879eb53439afebccafcac25dc4a8bbef7fa3a26ae17e5fe1ace8ea8a8048399
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Author: iosdump
+Name: TrollCM
 
