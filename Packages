@@ -1140,3 +1140,52 @@ Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Author: iosdump
 Name: TrollCM
 
+Package: com.subdiox.storeswitcher2
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11), mobilesubstrate
+Filename: ./debs/com.subdiox.storeswitcher2_1.0.1_iphoneos-arm64e.deb
+Size: 32028
+MD5sum: c988173b8b56d9c8c57cbbf01c5279d1
+SHA1: ddd6e80dde072cc93b06baa349d5d8f081467123
+SHA256: 10c804442810e40fdcf89c9ea7ffcdd88428ae92461048db56ca906a706bb67b
+Section: Tweaks
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: subdiox
+Name: StoreSwitcher 2
+
+Package: com.subdiox.storeswitcher2
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 216
+Depends: firmware (>= 11), mobilesubstrate
+Filename: ./debs/com.subdiox.storeswitcher2_1.0.1_iphoneos-arm64.deb
+Size: 22860
+MD5sum: c1c74bcdb70a422b7ded0d1c26f25459
+SHA1: 7b02f5c0331389bebd440d2996684ae90d8f80a8
+SHA256: 3a07ed55194913121f5bb0ff27703d9fa86e06972b3f012ea8e813104a6eace6
+Section: Tweaks
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: subdiox
+Name: StoreSwitcher 2
+
+Package: com.subdiox.storeswitcher2
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 216
+Depends: firmware (>= 11), mobilesubstrate
+Filename: ./debs/com.subdiox.storeswitcher2_1.0.1_iphoneos-arm.deb
+Size: 22866
+MD5sum: e7241586827de4795cc7ec36175b9c5e
+SHA1: 4333ef162044a9c138dd5962ad38039df74d8451
+SHA256: cdcf86736f4b851ef78efb5aa7cc2814a56e0db5f1c038a2499cb6b8446e2737
+Section: Tweaks
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: subdiox
+Name: StoreSwitcher 2
+
