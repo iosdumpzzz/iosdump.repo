@@ -1,0 +1,14 @@
+Package: com.iosdump.filzaopen
+Version: 0.1
+Architecture: iphoneos-arm64e
+Installed-Size: 4
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.iosdump.filzaopen_0.1_iphoneos-arm64e.deb
+Size: 1638
+MD5sum: 24539fc5d3c74d51c5c47265b6c931e8
+SHA1: 5a576d01a951e339a33c64d8e1c8b018e95408f2
+SHA256: ec4eaacb25aa725fa56a60b85e20540efefc270799e0e44ac2d55f6f9cec05a5
+Section: Utilities
+Description: open <path> -> uiopen filza://... (shell wrapper for roothide/libiosexec environments)
+Name: Filza Open (shell)
+
