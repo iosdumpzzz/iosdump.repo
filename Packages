@@ -601,6 +601,58 @@ Author: Fouad Raheb
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
+Package: com.iosdump.appdata
+Version: 2.1.0
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.1.0_iphoneos-arm.deb
+Size: 394452
+MD5sum: 0ca3259b8fbd68e7c770252a91b7a55b
+SHA1: 3bc9c6d63a81c072791689a76873033984a82664
+SHA256: 6ccf6c6bb51a19d0e800491389c449f614b0ce817316c42c1f28b597d999291f
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.1.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.1.0_iphoneos-arm64.deb
+Size: 394484
+MD5sum: e0e5523625cf110d915ff4c6778101de
+SHA1: cf407c68a08e2f05d7065af4e37d35eb40e447a8
+SHA256: 6410dd3b6cdfcfebc86b80bebae821f7fa07f982337cecc90d97461f89a8d072
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.1.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.1.0_iphoneos-arm64e.deb
+Size: 326578
+MD5sum: be5f311eaae70ebc9720b4a8107d4bbb
+SHA1: bc27744d31522d9908647b96689ec90098c4cc9e
+SHA256: 75b316bd230ec5f703e3d8c9d57c4857eb0b2061d4a469eba239f11d52da00c0
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
 Package: com.iosdump.customcallbg
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -889,6 +941,54 @@ Section: Tweaks
 Description: iOS 14-17 自定义来去电背景插件
 Author: iosdump
 Name: CustomCallBg
+
+Package: com.iosdump.customccbg
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customccbg_0.0.1_iphoneos-arm.deb
+Size: 47304
+MD5sum: 1332071c2fcf9b36291d70b88c202be6
+SHA1: 95b4f9dadf40f459b984e4c8c54530ac39424f58
+SHA256: 4dbf3d62ebfd05a03d12c29adc80334e6f89a49a668d8b30500a2e2fedd52e4a
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
+
+Package: com.iosdump.customccbg
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customccbg_0.0.1_iphoneos-arm64e.deb
+Size: 45428
+MD5sum: 534f800674465fee4943f6d750d1d8fc
+SHA1: 7f69c1e9978c3b15be082364226cef901d2d0195
+SHA256: 6d551df73e614d5f3edfef8fecf19a8737c9100a250fbc71984139891adb8a1e
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
+
+Package: com.iosdump.customccbg
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customccbg_0.0.1_iphoneos-arm64.deb
+Size: 47200
+MD5sum: e7822a620b5e9053c7cadd308f8db245
+SHA1: 1da91e0b614caf220c8a13d02c47d5ee73ddd31b
+SHA256: 4d86b21c9604c0a076d7f4d00b0a9886c66a88c7ee3be5451a39808c4e60a4b2
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
 
 Package: com.iosdump.filzacarplugin
 Version: 1.0.0
