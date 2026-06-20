@@ -1083,6 +1083,54 @@ Description: iOS 14-17 App跳转拦截重定向选择器。
 Author: iosdump
 Name: JumpSelect
 
+Package: com.iosdump.jumpselect
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.jumpselect_0.0.4_iphoneos-arm.deb
+Size: 56708
+MD5sum: b2fe67440823660697699f83d8bb3d80
+SHA1: b202e3d52b0a992aec79898e0d5802c45ec00a3d
+SHA256: 7d78437222711112b6af5b3aea3c3924285d78b6d84809a15a056d3adc7fbdbf
+Section: Tweaks
+Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Author: iosdump
+Name: JumpSelect
+
+Package: com.iosdump.jumpselect
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.jumpselect_0.0.4_iphoneos-arm64.deb
+Size: 56592
+MD5sum: 822072bffb707ef2905eee78f307b33a
+SHA1: 37eea8dd5ed43814762fadd565f04a5e778bbf98
+SHA256: 0a31459106e244fc0c0283b103657e8fd3c27cacb7d3c3290096de16f178492e
+Section: Tweaks
+Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Author: iosdump
+Name: JumpSelect
+
+Package: com.iosdump.jumpselect
+Version: 0.0.4
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.jumpselect_0.0.4_iphoneos-arm64e.deb
+Size: 55586
+MD5sum: a5968ed8fa5ff069bc3dde83779e570c
+SHA1: abfd9acad443ae2130629818361e227eb8e30f4e
+SHA256: cb4c516b2670e67c2089f934803dfd61b92b21d62cf8dcf1ae0c0d23643b6b6a
+Section: Tweaks
+Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Author: iosdump
+Name: JumpSelect
+
 Package: com.iosdump.shellx
 Version: 0.0.2
 Architecture: iphoneos-arm64
