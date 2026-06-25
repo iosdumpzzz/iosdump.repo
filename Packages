@@ -653,6 +653,54 @@ Author: Fouad Raheb
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
+Package: com.iosdump.appmute
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.appmute_0.0.1_iphoneos-arm64e.deb
+Size: 10572
+MD5sum: 38cd2a0f559dae99e030a6ea4b3da0d8
+SHA1: 80861c649e8f68a7a51b3f26d1c1bafe828870d9
+SHA256: 35a2306b795eff3af09c262fd9e03d51cf63b576590d689b33e26cc334f8dc93
+Section: Tweaks
+Description: 支持iOS14-17桌面长按图标快捷开启启动应用自动静音媒体音量开关。
+Author: iosdump
+Name: AppMute
+
+Package: com.iosdump.appmute
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.appmute_0.0.1_iphoneos-arm64.deb
+Size: 11662
+MD5sum: fd12cb6ed8e64c8d4a742a7baa3ed5d7
+SHA1: 902e6316a9fa3dabd104bdbcc051fc0e8c39fbd2
+SHA256: a1ccf6cadb1c1b612693038cb708cdacba217168d72bc3e15a26d79baab87d93
+Section: Tweaks
+Description: 支持iOS14-17桌面长按图标快捷开启启动应用自动静音媒体音量开关。
+Author: iosdump
+Name: AppMute
+
+Package: com.iosdump.appmute
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.appmute_0.0.1_iphoneos-arm.deb
+Size: 11722
+MD5sum: 02caf2a2b3a7c1e4fbbe52a2edc970c4
+SHA1: 0708f20f44f83820aeb69df8da9609c3ce85d968
+SHA256: 848afb98cfc024e778fb338df0c2cc1b3b04b06c608007c5a164d9e5b142d3a9
+Section: Tweaks
+Description: 支持iOS14-17桌面长按图标快捷开启启动应用自动静音媒体音量开关。
+Author: iosdump
+Name: AppMute
+
 Package: com.iosdump.customcallbg
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -1034,6 +1082,54 @@ SHA256: ec4eaacb25aa725fa56a60b85e20540efefc270799e0e44ac2d55f6f9cec05a5
 Section: Utilities
 Description: open <path> -> uiopen filza://... (shell wrapper for roothide/libiosexec environments)
 Name: Filza Open (shell)
+
+Package: com.iosdump.hotaiqingli
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.hotaiqingli_0.0.2_iphoneos-arm64.deb
+Size: 24524
+MD5sum: 4ae24e99c47a1d4043ce14a178769b93
+SHA1: f62ecd2c2b9c9b5cd6ca368551c746f93209f85e
+SHA256: 0f2d96e67e02b7f6add32e5d058b3cca58dd116751cd561516611f4c122f7988
+Section: Tweaks
+Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
+Author: iosdump
+Name: 后台一键清理
+
+Package: com.iosdump.hotaiqingli
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.hotaiqingli_0.0.2_iphoneos-arm.deb
+Size: 24446
+MD5sum: 2090734ebd6d805c4abc21e5c09d7a8c
+SHA1: 8d377941a4138f883f3661eea32abac59959a2ba
+SHA256: b38a62a59da0b3067ccc3d4ceedc753b7309692fbfb79c9cacd44db03ea87495
+Section: Tweaks
+Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
+Author: iosdump
+Name: 后台一键清理
+
+Package: com.iosdump.hotaiqingli
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.hotaiqingli_0.0.2_iphoneos-arm64e.deb
+Size: 24462
+MD5sum: 6e867078ce17a1da381682aea1acf252
+SHA1: 0803edaa2dce27f29772dd210899240abf01250b
+SHA256: 4e74a851deadae4aee938074bb5392679d79a3458586a10b2a6555b2fca02869
+Section: Tweaks
+Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
+Author: iosdump
+Name: 后台一键清理
 
 Package: com.iosdump.jumpselect
 Version: 0.0.3
