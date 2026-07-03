@@ -58,20 +58,6 @@
             -webkit-backdrop-filter: blur(30px) saturate(180%);
             overflow: hidden;
         }
-        .top-avatar {
-            width: 76px;
-            height: 76px;
-            border-radius: 50%;
-            margin: 0 auto 16px auto;
-            display: block;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-            border: 2px solid rgba(255, 255, 255, 0.6);
-            object-fit: cover;
-            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-        .top-avatar:hover {
-            transform: scale(1.05);
-        }
         .top-title {
             font-size: 30px;
             font-weight: 800;
@@ -104,26 +90,9 @@
             font-size: 14px;
             font-weight: 700;
             border-radius: 26px;
-            transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition: all 0.2s ease;
             background: rgba(255, 255, 255, 0.5);
             border: 1px solid rgba(255, 255, 255, 0.2);
-            position: relative;
-            overflow: hidden;
-            transform: translateZ(0);
-        }
-        .capsule-item::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 150%;
-            padding-top: 150%;
-            background: rgba(0, 0, 0, 0.08);
-            border-radius: 50%;
-            transform: translate(-50%, -50%) scale(0);
-            opacity: 1;
-            pointer-events: none;
-            transition: transform 0s, opacity 0.3s ease;
         }
         .capsule-item:first-child {
             margin-right: 6px;
@@ -134,15 +103,6 @@
         }
         .capsule-item:hover {
             background: rgba(255, 255, 255, 0.8);
-        }
-        .capsule-item:active {
-            transform: scale(0.95);
-            background: rgba(255, 255, 255, 0.9);
-        }
-        .capsule-item:active::after {
-            transform: translate(-50%, -50%) scale(1);
-            opacity: 0;
-            transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.4s ease;
         }
         .app-list-section {
             border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -183,10 +143,6 @@
             text-decoration: none;
             margin-right: 14px;
             flex-shrink: 0;
-            transition: transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
-        }
-        .app-icon-link:active {
-            transform: scale(0.9);
         }
         .app-icon {
             width: 48px;
@@ -221,42 +177,14 @@
             border-radius: 20px;
             font-size: 13px;
             font-weight: 700;
-            transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition: all 0.2s ease;
             border: 1px solid rgba(0, 0, 0, 0.01);
             white-space: nowrap;
             flex-shrink: 0;
-            position: relative;
-            overflow: hidden;
-            transform: translateZ(0);
-        }
-        .download-btn::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 150%;
-            padding-top: 150%;
-            background: rgba(0, 113, 227, 0.15);
-            border-radius: 50%;
-            transform: translate(-50%, -50%) scale(0);
-            opacity: 1;
-            pointer-events: none;
-            transition: transform 0s, opacity 0.3s ease;
         }
         .download-btn:hover {
             background: #0071e3;
             color: #ffffff;
-        }
-        .download-btn:hover::after {
-            background: rgba(255, 255, 255, 0.3);
-        }
-        .download-btn:active {
-            transform: scale(0.92);
-        }
-        .download-btn:active::after {
-            transform: translate(-50%, -50%) scale(1);
-            opacity: 0;
-            transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.4s ease;
         }
         .infringement-tip {
             font-size: 12px;
@@ -278,7 +206,6 @@
     <div class="bg-fluid"></div>
     <div class="card-anchor">
         <div class="main-container">
-            <img src="https://raw.githubusercontent.com/iosdumpzzz/iosdump.repo/refs/heads/main/CydiaIcon.png" class="top-avatar" alt="Avatar">
             <h1 class="top-title">iosdump</h1>
             <p class="repo-subtitle">越狱源及应用仓库</p>
             <div class="capsule-group">
