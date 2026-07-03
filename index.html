@@ -11,8 +11,8 @@
             box-sizing: border-box;
         }
         body {
-            background-color: #0f0c1b;
-            color: #ffffff;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             min-height: 100vh;
             display: flex;
@@ -29,13 +29,13 @@
             width: 100vw;
             height: 100vh;
             z-index: 1;
-            background: #4e54c8;
-            background: linear-gradient(to right, #ffffff, #667eea, #764ba2);
-            background: radial-gradient(circle at 20% 20%, #667eea, transparent 50%),
-                        radial-gradient(circle at 80% 20%, #764ba2, transparent),
-                        move-gradient(circle at 50% 80%, #3498db, transparent);
-            filter: blur(40px);
-            transform: scale(1.2);
+            background-color: #f5f5f7;
+            background-image:
+                radial-gradient(at 0% 0%, #d2e3fc 0px, transparent 60%),
+                radial-gradient(at 50% 0%, #f3e8ff 0px, transparent 60%),
+                radial-gradient(at 100% 0%, #e3f2fd 0px, transparent 60%),
+                radial-gradient(at 0% 100%, #e8f0fe 0px, transparent 60%),
+                radial-gradient(at 100% 100%, #e1f5fe 0px, transparent 60%);
         }
         .card-anchor {
             position: relative;
@@ -43,7 +43,6 @@
             width: 100%;
             max-width: 420px;
             padding: 20px;
-            perspective: 1000px;
         }
         .main-container {
             position: relative;
@@ -51,58 +50,34 @@
             padding: 40px 24px;
             border-radius: 35px;
             width: 100%;
-            background: rgba(255, 255, 255, 0.06);
-            border: 1px solid rgba(255, 255, 255, 0.25);
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4),
-                        inset 0 1px 0 rgba(255, 255, 255, 0.4),
-                        inset 0 10px 20px rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(30px) saturate(200%);
-            -webkit-backdrop-filter: blur(30px) saturate(200%);
-            transform-style: preserve-3d;
+            background: rgba(255, 255, 255, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.05),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(30px) saturate(180%);
+            -webkit-backdrop-filter: blur(30px) saturate(180%);
             overflow: hidden;
-        }
-        .main-container::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: linear-gradient(45deg, transparent 45%, rgba(255, 255, 255, 0.15) 50%, transparent 55%);
-            transform: translate(-30%, -30%);
-            animation: specular-shine 8s infinite linear;
-            pointer-events: none;
-            z-index: 2;
-        }
-        @keyframes specular-shine {
-            0% { transform: translate(-30%, -30%) rotate(0deg); }
-            100% { transform: translate(30%, 30%) rotate(0deg); }
-        }
-        .main-container * {
-            transform: translateZ(20px);
         }
         .top-title {
             font-size: 30px;
             font-weight: 800;
             margin-bottom: 4px;
             letter-spacing: -0.5px;
-            text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            color: #1d1d1f;
         }
         .repo-subtitle {
             font-size: 16px;
             font-weight: 600;
             margin-bottom: 24px;
-            color: rgba(255, 255, 255, 0.7);
-            text-shadow: 0 1px 4px rgba(0,0,0,0.2);
+            color: #86868b;
         }
         .capsule-group {
             display: flex;
-            background: rgba(0, 0, 0, 0.25);
+            background: rgba(0, 0, 0, 0.05);
             border-radius: 30px;
             padding: 4px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(0, 0, 0, 0.02);
             margin-bottom: 30px;
-            transform: translateZ(30px);
         }
         .capsule-item {
             flex: 1;
@@ -110,43 +85,35 @@
             align-items: center;
             justify-content: center;
             padding: 12px 8px;
-            color: #ffffff;
+            color: #1d1d1f;
             text-decoration: none;
             font-size: 14px;
             font-weight: 700;
             border-radius: 26px;
-            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: all 0.2s ease;
+            background: rgba(255, 255, 255, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .capsule-item:first-child {
+            margin-right: 6px;
         }
         .capsule-item i {
             margin-right: 8px;
             font-size: 16px;
         }
-        .capsule-item.primary {
-            background: #ffffff;
-            color: #121024;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-        .capsule-item.primary:hover {
-            background: rgba(255, 255, 255, 0.9);
-            transform: scale(1.02);
-        }
-        .capsule-item.secondary {
-            color: rgba(255, 255, 255, 0.9);
-        }
-        .capsule-item.secondary:hover {
-            background: rgba(255, 255, 255, 0.1);
+        .capsule-item:hover {
+            background: rgba(255, 255, 255, 0.8);
         }
         .app-list-section {
-            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
             padding-top: 20px;
             text-align: left;
-            transform: translateZ(15px);
         }
         .list-title {
             font-size: 15px;
             font-weight: 700;
-            color: rgba(255, 255, 255, 0.6);
-            margin-bottom: 12px;
+            color: #86868b;
+            margin-bottom: 16px;
             padding-left: 4px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -154,30 +121,36 @@
         .app-item {
             display: flex;
             align-items: center;
-            padding: 12px 4px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-            transition: background 0.2s;
+            justify-content: space-between;
+            padding: 14px 4px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            margin-bottom: 12px;
         }
         .app-item:last-child {
             border-bottom: none;
+            margin-bottom: 0;
+        }
+        .app-meta-box {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            min-width: 0;
+            margin-right: 12px;
         }
         .app-icon-link {
             display: block;
             line-height: 0;
             text-decoration: none;
+            margin-right: 14px;
+            flex-shrink: 0;
         }
         .app-icon {
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
+            width: 48px;
+            height: 48px;
+            border-radius: 11px;
             object-fit: cover;
-            margin-right: 14px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: transform 0.2s;
-        }
-        .app-icon:hover {
-            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            border: 1px solid rgba(0, 0, 0, 0.05);
         }
         .app-info {
             flex: 1;
@@ -186,43 +159,40 @@
         .app-name {
             font-size: 15px;
             font-weight: 700;
-            color: #ffffff;
-            margin-bottom: 2px;
+            color: #1d1d1f;
+            margin-bottom: 3px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
         .app-version {
             font-size: 12px;
-            color: rgba(255, 255, 255, 0.5);
+            color: #86868b;
         }
         .download-btn {
-            background: rgba(255, 255, 255, 0.15);
-            color: #ffffff;
+            background: rgba(0, 0, 0, 0.05);
+            color: #0071e3;
             text-decoration: none;
             padding: 6px 18px;
             border-radius: 20px;
             font-size: 13px;
             font-weight: 700;
-            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            transform: translateZ(25px);
+            transition: all 0.2s ease;
+            border: 1px solid rgba(0, 0, 0, 0.01);
             white-space: nowrap;
+            flex-shrink: 0;
         }
         .download-btn:hover {
-            background: #ffffff;
-            color: #121024;
-            border-color: #ffffff;
-            transform: translateZ(30px) scale(1.05);
-            box-shadow: 0 4px 12px rgba(255,255,255,0.2);
+            background: #0071e3;
+            color: #ffffff;
         }
         .infringement-tip {
             font-size: 12px;
-            color: rgba(255, 255, 255, 0.4);
+            color: #86868b;
             line-height: 1.5;
             margin-top: 24px;
             text-align: center;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            border-top: 1px solid rgba(0, 0, 0, 0.06);
             padding-top: 16px;
         }
         @media (max-width: 375px) {
@@ -239,67 +209,71 @@
             <h1 class="top-title">iosdump</h1>
             <p class="repo-subtitle">越狱源及应用仓库</p>
             <div class="capsule-group">
-                <a href="sileo://source/https://iosdumpzzz.github.io/iosdump.repo/" class="capsule-item primary">
+                <a href="sileo://source/https://iosdumpzzz.github.io/iosdump.repo/" class="capsule-item">
                     <i class="fa fa-download"></i>添加至 Sileo
                 </a>
-                <a href="tg://resolve?domain=iosdumpzzz" class="capsule-item secondary">
+                <a href="tg://resolve?domain=iosdumpzzz" class="capsule-item">
                     <i class="fa fa-paper-plane"></i>Telegram
                 </a>
             </div>
             <div class="app-list-section">
                 <h2 class="list-title">应用列表</h2>
                 <div class="app-item">
-                    <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
-                        <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
-                    </a>
-                    <div class="app-info">
-                        <div class="app-name">TrollCM</div>
-                        <div class="app-version">v1.1.5 · tipa</div>
+                    <div class="app-meta-box">
+                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
+                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
+                        </a>
+                        <div class="app-info">
+                            <div class="app-name">TrollCM</div>
+                            <div class="app-version">v1.1.5 · tipa</div>
+                        </div>
                     </div>
                     <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/TrollCM/TrollCM_1.1.5.tipa" class="download-btn">下载</a>
                 </div>
                 <div class="app-item">
-                    <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
-                        <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
-                    </a>
-                    <div class="app-info">
-                        <div class="app-name">TrollFools</div>
-                        <div class="app-version">v4.3-249 · tipa</div>
-                    </div>
-                    <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/TrollFools/TrollFools_4.3-249_iosdump(20260418).tipa" class="add-source-btn" style="margin-bottom:0; padding:8px 16px; font-size:14px; width:auto; display:inline-block; border-radius:20px; font-weight:600; transform:none;">下载</a>
-                </div>
-                <div class="app-item-row" style="display:flex; align-items:center; justify-content:space-between; padding:12px 0;">
-                    <div style="display:flex; align-items:center; gap:12px;">
-                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" style="line-height:0;">
-                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" style="width:46px; height:46px; border-radius:10px; object-fit:cover;" alt="Icon">
+                    <div class="app-meta-box">
+                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
+                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
                         </a>
-                        <div style="text-align:left;">
-                            <div style="font-size:16px; font-weight:600; color:#ffffff;">Residue</div>
-                            <div style="font-size: 13px; color:rgba(255,255,255,0.6);">v1.1 · tipa</div>
+                        <div class="app-info">
+                            <div class="app-name">TrollFools</div>
+                            <div class="app-version">v4.3-249 · tipa</div>
+                        </div>
+                    </div>
+                    <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/TrollFools/TrollFools_4.3-249_iosdump(20260418).tipa" class="download-btn">下载</a>
+                </div>
+                <div class="app-item">
+                    <div class="app-meta-box">
+                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
+                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
+                        </a>
+                        <div class="app-info">
+                            <div class="app-name">Residue</div>
+                            <div class="app-version">v1.1 · tipa</div>
                         </div>
                     </div>
                     <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Residue/Residue_1.1.tipa" class="download-btn">下载</a>
                 </div>
-                <div class="app-item-row" style="display:flex; align-items:center; justify-content:space-between; padding:12px 0;">
-                    <div style="display:flex; align-items:center; gap:12px;">
-                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" style="line-height:0;">
-                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" style="width:46px; height:46px; border-radius:10px; object-fit:cover;" alt="Icon">
+                <div class="app-item">
+                    <div class="app-meta-box">
+                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
+                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
                         </a>
-                        <div style="text-align:left;">
-                            <div style="font-size:16px; font-weight:600; color:#ffffff;">IconLib</div>
-                            <div style="font-size: 13px; color:rgba(255,255,255,0.6);">v1.2 · ipa</div>
+                        <div class="app-info">
+                            <div class="app-name">IconLib</div>
+                            <div class="app-version">v1.2 · ipa</div>
                         </div>
                     </div>
                     <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/IconLib/IconLib_1.2.ipa" class="download-btn">下载</a>
                 </div>
-                <div class="app-item-row" style="display:flex; align-items:center; justify-content:space-between; padding:12px 0; border-bottom:none;">
-                    <div style="display:flex; align-items:center; gap:12px;">
-                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" style="line-height:0;">
-                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" style="width:46px; height:46px; border-radius:10px; object-fit:cover;" alt="Icon">
+                <div class="app-item">
+                    <div class="app-meta-box">
+                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
+                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
                         </a>
-                        <div style="text-align:left;">
-                            <div style="font-size:16px; font-weight:600; color:#ffffff;">Debs</div>
-                            <div style="font-size: 13px; color:rgba(255,255,255,0.6);">v6.1 · ipa</div>
+                        <div class="app-info">
+                            <div class="app-name">Debs</div>
+                            <div class="app-version">v6.1 · ipa</div>
                         </div>
                     </div>
                     <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Debs/Debs_v6.1.ipa" class="download-btn">下载</a>
@@ -308,29 +282,5 @@
             <p class="infringement-tip">插件均为个人日常编写，完全免费使用，如有问题和更好的建议，请及时联系探讨。</p>
         </div>
     </div>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const card = document.querySelector(".main-container");
-            const anchor = document.querySelector(".card-anchor");
-            if (!card || !anchor) return;
-            anchor.addEventListener("mousemove", (e) => {
-                const rect = card.getBoundingClientRect();
-                const xc = rect.left + rect.width / 2;
-                const yc = rect.top + rect.height / 2;
-                const pctX = (e.clientX - xc) / (rect.width / 2);
-                const pctY = (e.clientY - yc) / (rect.height / 2);
-                const rotY = pctX * 12;
-                const rotX = -pctY * 12;
-                card.style.transform = `perspective(800px) rotateX(${rotX}deg) rotateY(${rotY}deg)`;
-            });
-            anchor.addEventListener("mouseleave", () => {
-                card.style.transition = "transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1)";
-                card.style.transform = "perspective(800px) rotateX(0deg) rotateY(0deg)";
-            });
-            anchor.addEventListener("mouseenter", () => {
-                card.style.transition = "none";
-            });
-        });
-    </script>
 </body>
 </html>
