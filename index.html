@@ -31,120 +31,136 @@
             z-index: 1;
             background-color: #f5f5f7;
             background-image:
-                radial-gradient(circle at 15% 15%, rgba(102, 126, 234, 0.12), transparent 50%),
-                radial-gradient(circle at 85% 20%, rgba(224, 195, 252, 0.18), transparent 55%),
-                radial-gradient(circle at 50% 85%, rgba(52, 152, 219, 0.15), transparent 60%);
+                radial-gradient(at 0% 0%, #d2e3fc 0px, transparent 60%),
+                radial-gradient(at 50% 0%, #f3e8ff 0px, transparent 60%),
+                radial-gradient(at 100% 0%, #e3f2fd 0px, transparent 60%),
+                radial-gradient(at 0% 100%, #e8f0fe 0px, transparent 60%),
+                radial-gradient(at 100% 100%, #e1f5fe 0px, transparent 60%);
         }
         .card-anchor {
             position: relative;
             z-index: 10;
             width: 100%;
-            max-width: 410px;
+            max-width: 420px;
             padding: 20px;
         }
         .main-container {
+            position: relative;
             text-align: center;
             padding: 40px 24px;
-            border-radius: 32px;
+            border-radius: 35px;
             width: 100%;
-            background: rgba(255, 255, 255, 0.45);
-            border: 1px solid rgba(255, 255, 255, 0.7);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05),
-                        inset 0 1px 0 rgba(255, 255, 255, 0.6);
-            backdrop-filter: blur(25px) saturate(170%);
-            -webkit-backdrop-filter: blur(25px) saturate(170%);
+            background: rgba(255, 255, 255, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.05),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(30px) saturate(180%);
+            -webkit-backdrop-filter: blur(30px) saturate(180%);
+            overflow: hidden;
         }
         .top-title {
             font-size: 30px;
-            font-weight: 700;
-            color: #1d1d1f;
+            font-weight: 800;
             margin-bottom: 4px;
             letter-spacing: -0.5px;
+            color: #1d1d1f;
         }
         .repo-subtitle {
-            font-size: 15px;
-            font-weight: 500;
-            color: #86868b;
+            font-size: 16px;
+            font-weight: 600;
             margin-bottom: 24px;
+            color: #86868b;
         }
         .capsule-group {
             display: flex;
             background: rgba(0, 0, 0, 0.05);
             border-radius: 30px;
             padding: 4px;
-            border: 1px solid rgba(0, 0, 0, 0.01);
-            margin-bottom: 28px;
+            border: 1px solid rgba(0, 0, 0, 0.02);
+            margin-bottom: 30px;
         }
         .capsule-item {
             flex: 1;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 11px 8px;
+            padding: 12px 8px;
             color: #1d1d1f;
             text-decoration: none;
             font-size: 14px;
-            font-weight: 600;
+            font-weight: 700;
             border-radius: 26px;
-            transition: background 0.2s ease, box-shadow 0.2s ease;
+            transition: all 0.2s ease;
+            background: rgba(255, 255, 255, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
         .capsule-item:first-child {
-            margin-right: 4px;
+            margin-right: 6px;
         }
         .capsule-item i {
-            margin-right: 6px;
-            font-size: 15px;
+            margin-right: 8px;
+            font-size: 16px;
         }
         .capsule-item:hover {
-            background: rgba(255, 255, 255, 0.75);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+            background: rgba(255, 255, 255, 0.8);
         }
         .app-list-section {
-            border-top: 1px solid rgba(0, 0, 0, 0.06);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
             padding-top: 20px;
             text-align: left;
         }
         .list-title {
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 700;
             color: #86868b;
-            margin-bottom: 8px;
-            padding-left: 2px;
+            margin-bottom: 16px;
+            padding-left: 4px;
+            text-transform: uppercase;
             letter-spacing: 0.5px;
         }
         .app-item {
             display: flex;
             align-items: center;
-            padding: 14px 2px;
+            justify-content: space-between;
+            padding: 14px 4px;
             border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            margin-bottom: 12px;
         }
         .app-item:last-child {
             border-bottom: none;
-            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        .app-meta-box {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            min-width: 0;
+            margin-right: 12px;
         }
         .app-icon-link {
             display: block;
             line-height: 0;
             text-decoration: none;
-            margin-right: 12px;
+            margin-right: 14px;
+            flex-shrink: 0;
         }
         .app-icon {
             width: 48px;
             height: 48px;
             border-radius: 11px;
             object-fit: cover;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
             border: 1px solid rgba(0, 0, 0, 0.05);
         }
         .app-info {
             flex: 1;
             min-width: 0;
-            margin-right: 12px;
         }
         .app-name {
             font-size: 15px;
-            font-weight: 600;
+            font-weight: 700;
             color: #1d1d1f;
-            margin-bottom: 2px;
+            margin-bottom: 3px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -154,15 +170,17 @@
             color: #86868b;
         }
         .download-btn {
-            background: rgba(0, 113, 227, 0.07);
+            background: rgba(0, 0, 0, 0.05);
             color: #0071e3;
             text-decoration: none;
-            padding: 5px 16px;
+            padding: 6px 18px;
             border-radius: 20px;
             font-size: 13px;
-            font-weight: 600;
-            transition: background 0.2s ease, color 0.2s ease;
+            font-weight: 700;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(0, 0, 0, 0.01);
             white-space: nowrap;
+            flex-shrink: 0;
         }
         .download-btn:hover {
             background: #0071e3;
@@ -179,7 +197,8 @@
         }
         @media (max-width: 375px) {
             .top-title { font-size: 26px; }
-            .main-container { padding: 32px 16px; }
+            .repo-subtitle { margin-bottom: 20px; }
+            .main-container { padding: 30px 16px; }
         }
     </style>
 </head>
@@ -200,52 +219,62 @@
             <div class="app-list-section">
                 <h2 class="list-title">应用列表</h2>
                 <div class="app-item">
-                    <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
-                        <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
-                    </a>
-                    <div class="app-info">
-                        <div class="app-name">TrollCM</div>
-                        <div class="app-version">v1.1.5 · tipa</div>
+                    <div class="app-meta-box">
+                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
+                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
+                        </a>
+                        <div class="app-info">
+                            <div class="app-name">TrollCM</div>
+                            <div class="app-version">v1.1.5 · tipa</div>
+                        </div>
                     </div>
                     <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/TrollCM/TrollCM_1.1.5.tipa" class="download-btn">下载</a>
                 </div>
                 <div class="app-item">
-                    <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
-                        <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
-                    </a>
-                    <div class="app-info">
-                        <div class="app-name">TrollFools</div>
-                        <div class="app-version">v4.3-249 · tipa</div>
+                    <div class="app-meta-box">
+                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
+                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
+                        </a>
+                        <div class="app-info">
+                            <div class="app-name">TrollFools</div>
+                            <div class="app-version">v4.3-249 · tipa</div>
+                        </div>
                     </div>
                     <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/TrollFools/TrollFools_4.3-249_iosdump(20260418).tipa" class="download-btn">下载</a>
                 </div>
                 <div class="app-item">
-                    <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
-                        <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
-                    </a>
-                    <div class="app-info">
-                        <div class="app-name">Residue</div>
-                        <div class="app-version">v1.1 · tipa</div>
+                    <div class="app-meta-box">
+                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
+                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
+                        </a>
+                        <div class="app-info">
+                            <div class="app-name">Residue</div>
+                            <div class="app-version">v1.1 · tipa</div>
+                        </div>
                     </div>
                     <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Residue/Residue_1.1.tipa" class="download-btn">下载</a>
                 </div>
                 <div class="app-item">
-                    <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
-                        <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
-                    </a>
-                    <div class="app-info">
-                        <div class="app-name">IconLib</div>
-                        <div class="app-version">v1.2 · ipa</div>
+                    <div class="app-meta-box">
+                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
+                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
+                        </a>
+                        <div class="app-info">
+                            <div class="app-name">IconLib</div>
+                            <div class="app-version">v1.2 · ipa</div>
+                        </div>
                     </div>
                     <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/IconLib/IconLib_1.2.ipa" class="download-btn">下载</a>
                 </div>
                 <div class="app-item">
-                    <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
-                        <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
-                    </a>
-                    <div class="app-info">
-                        <div class="app-name">Debs</div>
-                        <div class="app-version">v6.1 · ipa</div>
+                    <div class="app-meta-box">
+                        <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" target="_blank" class="app-icon-link">
+                            <img src="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Deb.png" class="app-icon" alt="Icon">
+                        </a>
+                        <div class="app-info">
+                            <div class="app-name">Debs</div>
+                            <div class="app-version">v6.1 · ipa</div>
+                        </div>
                     </div>
                     <a href="https://github.com/iosdumpzzz/AppRepo/raw/refs/heads/main/Debs/Debs_v6.1.ipa" class="download-btn">下载</a>
                 </div>
