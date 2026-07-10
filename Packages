@@ -1483,6 +1483,54 @@ Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。�
 Author: iosdump
 Name: JumpSelect
 
+Package: com.iosdump.memorycontrol
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 676
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_0.0.2_iphoneos-arm.deb
+Size: 72194
+MD5sum: 1dfed29d3112a1babc7f85ba2c8b3944
+SHA1: 59a2de0ed577de2f452d89bb2ba0aebd48b7e47a
+SHA256: d3a6f17b0f8e69302b1dc5a0004c88dc0f6e0927c45837aef360801702f7e5f8
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
+Package: com.iosdump.memorycontrol
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 676
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_0.0.2_iphoneos-arm64.deb
+Size: 72390
+MD5sum: a5c7a0d8451a37af24afc19552e4a726
+SHA1: c5db9787d3209fbc65c98d85d231cea972b290d9
+SHA256: 79ee370c001ae4af51946ef2e4b0479caa60ccc25462dafbd51d93cc606accf4
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
+Package: com.iosdump.memorycontrol
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 676
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_0.0.2_iphoneos-arm64e.deb
+Size: 70678
+MD5sum: f0ca5959a1b5a4ae401fcabd9a689093
+SHA1: 7cce1500831e09fa4c3507cf2576152b3c700eb4
+SHA256: e2818f87cb406affc6276df09b9e0b852be9f4a3db76ecd995e7ef73b2eadf52
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
 Package: com.iosdump.shellx
 Version: 0.0.2
 Architecture: iphoneos-arm64
