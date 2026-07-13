@@ -1,3 +1,35 @@
+Package: com.be-huge.insulation
+Version: 0.1.37
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 816
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.be-huge.insulation_0.1.37_iphoneos-arm64.deb
+Size: 65114
+MD5sum: 067aaf5c40a7a5322c0dfff561e884bd
+SHA1: cf18aebd21825196ad9ae1b9da8baec5bcaf21a9
+SHA256: 24b7deaefaf644cc7112433535288d88ec7d3185d74cef58957062476d609111
+Section: Tweaks
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Author: be-huge & doimty
+Name: insulation
+
+Package: com.be-huge.insulation
+Version: 0.1.37
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 800
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.be-huge.insulation_0.1.37_iphoneos-arm64e.deb
+Size: 62448
+MD5sum: 4383c84b80ebc002480efe7d3385d187
+SHA1: cc91f62db806a71a3a2484b48df3d4a27f61d87b
+SHA256: 01e7219fd57737b5d59c65fd9fb9d86e1ce6aa89de33b4a4b8ce91f8e76ef25c
+Section: Tweaks
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Author: be-huge & doimty
+Name: insulation
+
 Package: com.crctdd.surgectl
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -48,6 +80,57 @@ Priority: optional
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
 Author: RrrankkK
 Name: SurgeCTL
+
+Package: com.doimty.promotion
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: ./debs/com.doimty.promotion_1.0.7_iphoneos-arm64e.deb
+Size: 42096
+MD5sum: 8e39ba23966c84831e5d1d4eca089078
+SHA1: a51e6e218f615540b59c632a65109ad0a07b289f
+SHA256: 965b7277b89fc8db3367c67a1df316f336c853ddf9150dd556df9c25c665477d
+Section: Tweaks
+Description: Enables full 120Hz ProMotion by overriding the system 80Hz refresh-rate cap. Requires iPhone 13 Pro or later.
+Tag: supports::roothide
+Author: doimty
+Name: ProMotion 120Hz
+
+Package: com.doimty.promotion
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: ./debs/com.doimty.promotion_1.0.7_iphoneos-arm64.deb
+Size: 42196
+MD5sum: 542a520c8e048e16d693561f1480a7da
+SHA1: 05f494bf880bf1a893179c25ae40c1f4d5889a39
+SHA256: 3ddb6a3b5b01ccad6615204dc1ce0a5daefb35919497dd0c90a3afecdd125ecd
+Section: Tweaks
+Description: Enables full 120Hz ProMotion by overriding the system 80Hz refresh-rate cap. Requires iPhone 13 Pro or later.
+Tag: supports::roothide
+Author: doimty
+Name: ProMotion 120Hz
+
+Package: com.doimty.promotion
+Version: 1.0.8
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: ./debs/com.doimty.promotion_1.0.8_iphoneos-arm64e.deb
+Size: 25936
+MD5sum: 357609839a3d5471004855e357463729
+SHA1: 4f643641c669f3ee781f673acfddf2b00fafb2c1
+SHA256: 163356804400a7144f7794823f357648bb8a103d3ecebe93ce35193ff223af68
+Section: Tweaks
+Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
+Tag: supports::roothide
+Author: doimty
+Name: ProMotion 120Hz
 
 Package: com.iosdump.airdrop
 Version: 0.0.1
