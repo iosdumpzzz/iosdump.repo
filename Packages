@@ -1810,6 +1810,54 @@ Description: iOS 14-17 进程内存与优先级调整
 Author: iosdump
 Name: MemoryControlX
 
+Package: com.iosdump.memorycontrol
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_1.1_iphoneos-arm64e.deb
+Size: 87184
+MD5sum: f340dab195475d5803454e80a067ec3d
+SHA1: dad4da95a2bcb75a4927e2e7bd0060d061102862
+SHA256: 0693d8e61570ab07693bb1ab249e5a0a03d8f54be445ff3d885f75db56ba56ba
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
+Package: com.iosdump.memorycontrol
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_1.1_iphoneos-arm64.deb
+Size: 88898
+MD5sum: 8c498f73ce9224c9e25a41c4ab965bb4
+SHA1: 502360037655fe0e4300519217e9bf6e692dbda5
+SHA256: 7c3bd4aba3546aecfc30e03fbaea23f926d63137213bbc409fec5f6ab8aea97b
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
+Package: com.iosdump.memorycontrol
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_1.1_iphoneos-arm.deb
+Size: 88038
+MD5sum: 0217ed9dc3f85bc79105fe2f699f642a
+SHA1: 557789fca6ce62654b166d846e149444d93dbebb
+SHA256: a88642d03bc0c8232e29fa115125f737f4d6f2d8023d5154e4b5e7bb09b0b245
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
 Package: com.iosdump.shellx
 Version: 0.0.2
 Architecture: iphoneos-arm64
