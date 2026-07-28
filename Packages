@@ -30,6 +30,38 @@ Description: 解除隔空十分钟限制iOS16+
 Author: iosdump
 Name: AirDrop
 
+Package: com.iosdump.airdrop
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.airdrop_0.0.2_iphoneos-arm64.deb
+Size: 7478
+MD5sum: 96d50d9108878a2574fca9da775bd5ff
+SHA1: 5d81f954877fc96e7ae621d370564cf9dbec9a67
+SHA256: 7610e7532d76f78476598ed4dbf0942e24ad64bc09b72b27ff3d0ca1a3e2edc8
+Section: Tweaks
+Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
+Author: iosdump
+Name: AirDrop
+
+Package: com.iosdump.airdrop
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.airdrop_0.0.2_iphoneos-arm64e.deb
+Size: 7432
+MD5sum: 3a9c44a88731f309908dafb3a90e6461
+SHA1: a583b2814d184c922cc58aea09159f9bc3721dc1
+SHA256: a1229d3c7e5d7bb4cb6c3de8d589013dfd6b52336e6947b351bd67ee35c0ab52
+Section: Tweaks
+Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
+Author: iosdump
+Name: AirDrop
+
 Package: com.iosdump.appdata
 Version: 1.8.9
 Architecture: iphoneos-arm
@@ -856,6 +888,58 @@ Size: 1857564
 MD5sum: e25766313b166f2ebee60771adbe1e06
 SHA1: e2c33496b99de7b3c446ac29b483050786652e3e
 SHA256: 295253b7c045471693e23b4b62f886b51b9e6c1e7c5b5ab4c39cff422044787e
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.6.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.6.1_iphoneos-arm64e.deb
+Size: 3641106
+MD5sum: 188ee5b3b962b3427d198247a8a2ab65
+SHA1: d5612d38693e4f4107919201d32adfbac4d5ad33
+SHA256: f9e5e2d623302f7195267968ecbd65f9eb83472955a215288a0263a9625adf1b
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.6.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.6.1_iphoneos-arm.deb
+Size: 1904168
+MD5sum: a467981984df51cc5b10c3ae89323d65
+SHA1: 33799d7812bb8bd07afd03e7b0b10ee70f96954b
+SHA256: 98a5ba6c8c89f52901fc0a12cd1425673a0ce58d6494e0235117491ba01adb8a
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.6.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.6.1_iphoneos-arm64.deb
+Size: 1904292
+MD5sum: 44640f79243da4f115a983d6209550e7
+SHA1: 3be1c2373d29fa77bbd9fab9da5f1ba8b8d763f1
+SHA256: 60aca8f4439ca6e80e5b5ab1c47783f775cb96301c1a1ca4a2c45b0d229d7baa
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: iosdump
