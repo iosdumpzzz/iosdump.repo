@@ -1808,6 +1808,54 @@ Description: iOS 14-17 进程内存与优先级调整
 Author: iosdump
 Name: MemoryControlX
 
+Package: com.iosdump.memorycontrol
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 780
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_1.2_iphoneos-arm64.deb
+Size: 91920
+MD5sum: f7366ef2bf8a5234bf7da3aba18e8f72
+SHA1: 6e0d93cd9ff1f19e4a242761a9aa1c0277cc8f0d
+SHA256: fcf54419cb83fe1317e515861df868b123d28f211ea9e62c0b91ddb06aee9d99
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
+Package: com.iosdump.memorycontrol
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_1.2_iphoneos-arm64e.deb
+Size: 90468
+MD5sum: 82e9302963e709f0df08e46b7f008f11
+SHA1: 2b3058df11538e95f41eb48f30e99c99e6e682c5
+SHA256: 9bbfc42eb6e18a0e6c3e2cc6013378585b96c6057b08b851e98f1e3543a9f8d2
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
+Package: com.iosdump.memorycontrol
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 780
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_1.2_iphoneos-arm.deb
+Size: 92228
+MD5sum: c708bfbddc3f1d64d4b697c54acc0241
+SHA1: 27caf5cc3f824b479d660475fdc192b2532daaed
+SHA256: 88a15c0a5043af709d08d2ffd269a93950f65b475281c824a5df6346b86ac825
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
 Package: com.iosdump.shellx
 Version: 0.0.2
 Architecture: iphoneos-arm
@@ -2043,6 +2091,54 @@ Size: 136686
 MD5sum: 09290b1e43a6c642565352f1813febba
 SHA1: 7128af2419c7e54b56a5de6ae874765f67d1f555
 SHA256: f4279c6d0b2c5283ddb6aeae8ba074ece5d7a8bcb2f4e6f35b602537d5b9ba70
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 836
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.2.0_iphoneos-arm64e.deb
+Size: 140488
+MD5sum: 8a322bc60f89a3f33811177a46152908
+SHA1: 2fd37c6fcad5db3e6270c153581ecca1e5a8c39b
+SHA256: b110c2138263f8285a9ff80cab89320f14ae95b50a56d92097453189d179a21b
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 852
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.2.0_iphoneos-arm.deb
+Size: 142688
+MD5sum: 5da6d9db0dd6531a5a7b29fddf83d562
+SHA1: 8c4bb38c8638a14ee9b1ccb5bf996ba1bb54f1ab
+SHA256: 121b967d799263161bc96e6e6adede347ae225c831b52aaeaeda6f70a02f0a62
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 852
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.2.0_iphoneos-arm64.deb
+Size: 142364
+MD5sum: be794caaac90a3d79446b1c9865a2390
+SHA1: bd39d0a866f1347e7f82e502a9a2425145341253
+SHA256: 8b15075524e1ce7a2d01ecd28751c03e5b376dc34182e168d8ea662de98845e4
 Section: Tweaks
 Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
 Author: iosdump
