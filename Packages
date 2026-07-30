@@ -1331,6 +1331,54 @@ Description: iOS 14-17 控制中心背景自定义
 Author: iosdump
 Name: CustomCCBg
 
+Package: com.iosdump.customccbg
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customccbg_0.0.3_iphoneos-arm.deb
+Size: 49696
+MD5sum: 022c488fb65fcbdd58b9da3835b05a57
+SHA1: 63893d7bf386258bd9c3c31c38cfb84757f286f9
+SHA256: d59fdead64c9591d24f746ebf7282d2d0397bde96a93cbccca2331931bc94861
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
+
+Package: com.iosdump.customccbg
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customccbg_0.0.3_iphoneos-arm64.deb
+Size: 49654
+MD5sum: 9d643e0431e3f6424a09c78ae8bfa217
+SHA1: 1fbaf876665703e5fef869690b8087a58666aee5
+SHA256: 102efd4d49fb2c738b35c5e40e2f827a23334954e6d42216e4530c97c79bd7e8
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
+
+Package: com.iosdump.customccbg
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customccbg_0.0.3_iphoneos-arm64e.deb
+Size: 47740
+MD5sum: f54186316bf22dd144cc879aa41e272b
+SHA1: 1bb8452618cc0f49871a05e8db5a3e91a9a9b2f8
+SHA256: 940a9c3bedd726cb427e4ba4bf388a70234ca5a548e3a155eaccc1f6acadb135
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
+
 Package: com.iosdump.customvpnicon
 Version: 0.1
 Architecture: iphoneos-arm
@@ -1613,6 +1661,54 @@ SHA1: 1af84483f0f5f0ebf4f225d22ca17de99fb32cc2
 SHA256: bd27f9dd4e8ff7c425e09d6ff5d5f2e71e54cc4635d78fd07d2aacf8193e9913
 Section: Tweaks
 Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Author: iosdump
+Name: JumpSelect
+
+Package: com.iosdump.jumpselect
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 508
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.jumpselect_1.2_iphoneos-arm64.deb
+Size: 64092
+MD5sum: 22e901eab253fd34ffa54b8e2c54c3ce
+SHA1: 3397dd4b40bceebc07d77cb3c6ca0b0852030743
+SHA256: ab1a0fd817a40208a58b47ad9cfc011d0820f975ef0ac7e3fda93c7f36414a7b
+Section: Tweaks
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱，插件仅支持应用之间 URL Scheme / Universal Links 拦截跳转
+Author: iosdump
+Name: JumpSelect
+
+Package: com.iosdump.jumpselect
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 492
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.jumpselect_1.2_iphoneos-arm64e.deb
+Size: 63276
+MD5sum: 206331261da25e8885e575a80a68cf48
+SHA1: 29a4b787cc52f5c3fadf2bc72477238370f0cec3
+SHA256: 6b8b40c1c11e02c4467d4953a1ab0587f1bfe3975916c52bb9ef1a8a19e009cb
+Section: Tweaks
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱，插件仅支持应用之间 URL Scheme / Universal Links 拦截跳转
+Author: iosdump
+Name: JumpSelect
+
+Package: com.iosdump.jumpselect
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 508
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.jumpselect_1.2_iphoneos-arm.deb
+Size: 64194
+MD5sum: 65f4a49a4926b1f283f8a8abc6068985
+SHA1: 741f6b5a2dbfa55a94f5bba4a3444430ea4fcdc7
+SHA256: d0069b6e734197d95fa64242c6b71b91df58a651dd7c338b1f2286a23e9495b7
+Section: Tweaks
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱，插件仅支持应用之间 URL Scheme / Universal Links 拦截跳转
 Author: iosdump
 Name: JumpSelect
 
