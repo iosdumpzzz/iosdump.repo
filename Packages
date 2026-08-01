@@ -1500,10 +1500,10 @@ Maintainer: iosdump
 Installed-Size: 240
 Depends: mobilesubstrate
 Filename: ./debs/com.iosdump.hotaiqingli_0.0.2_iphoneos-arm.deb
-Size: 24446
-MD5sum: 2090734ebd6d805c4abc21e5c09d7a8c
-SHA1: 8d377941a4138f883f3661eea32abac59959a2ba
-SHA256: b38a62a59da0b3067ccc3d4ceedc753b7309692fbfb79c9cacd44db03ea87495
+Size: 53196
+MD5sum: 86f3cfe51ccdca67304c05e7fa67a00a
+SHA1: 511f6005aa43a161b21305c021e7f9ab58bf1c50
+SHA256: 310ac8e30afe0d9b1a26b94426626ad74d380fdc905003a5d76356e203e7f170
 Section: Tweaks
 Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
 Author: iosdump
