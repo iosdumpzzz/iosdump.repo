@@ -19,6 +19,22 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: com.82flex.cranepkdserverfix
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 82flex
+Installed-Size: 72
+Depends: firmware (>= 17.0), mobilesubstrate, com.opa334.crane
+Filename: ./debs/com.82flex.cranepkdserverfix_0.0.1_iphoneos-arm64e.deb
+Size: 2836
+MD5sum: 0d5b42d1f60862ad24471849ad9be24d
+SHA1: 3c93af497d06cf1c8e303659c087957c9d38e6bd
+SHA256: 1990bc23a65fe375633f5e32b9ad743bb7d17dd98b51537f6ee3e35d25c832aa
+Section: Tweaks
+Description: 修复Crane在iOS17不通知的bug。Repairs Crane PKDServer discovery on iOS 17.
+Author: 82flex
+Name: Crane PKDServer Fix
+
 Package: com.iosdump.airdrop
 Version: 0.0.1
 Architecture: iphoneos-arm64e
