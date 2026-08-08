@@ -2997,22 +2997,6 @@ Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS1
 Author: iosdump
 Name: Zone
 
-Package: com.opa334.trollstorelite
-Version: 2.1.1
-Architecture: iphoneos-arm64e
-Maintainer: opa334
-Installed-Size: 556
-Depends: ldid
-Filename: ./debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm64e.deb
-Size: 211724
-MD5sum: c5aa97e3524b8383ac9aba09e88fc488
-SHA1: 5b42782e3bee9b9c88f229bb970c0203dbfddc45
-SHA256: c4559fbaf83ab3ba2c941f522c7d88a5ac8aa7606c6083166d3ae5424ffa5d03
-Section: Applications
-Description: TrollStore for RootHide jailbroken iOS
-Author: opa334
-Name: TrollStore Lite (RootHide)
-
 Package: com.subdiox.storeswitcher2
 Version: 1.0.1
 Architecture: iphoneos-arm64e
