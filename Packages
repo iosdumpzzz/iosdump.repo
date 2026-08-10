@@ -1613,6 +1613,38 @@ Section: Utilities
 Description: open <path> -> uiopen filza://... (shell wrapper for roothide/libiosexec environments)
 Name: Filza Open (shell)
 
+Package: com.iosdump.freegrid
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.iosdump.freegrid_0.0.1_iphoneos-arm64.deb
+Size: 13832
+MD5sum: 703c5c27625dc6921c9b8a491b68f334
+SHA1: d726924e3f0b1c1610dc8d51dab048f0f634508e
+SHA256: c8976595914d154264f45c752f6e05ea9b22c1e9fc6de8b0746f4b31a19934a0
+Section: Tweaks
+Description: 桌面图标随意摆放，仅支持 iOS 17
+Author: iosdump
+Name: FreeGrid
+
+Package: com.iosdump.freegrid
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.iosdump.freegrid_0.0.1_iphoneos-arm64e.deb
+Size: 13756
+MD5sum: 0dcfc05b194e7dd11076b2be1e5b60d0
+SHA1: 8024317c2d6d96798e4dd6c4a0885d1cb9047024
+SHA256: 371982b8adc93bf9432e3f61e651eb377b7c5a7582b6e42a628da54d9d94df99
+Section: Tweaks
+Description: 桌面图标随意摆放，仅支持 iOS 17
+Author: iosdump
+Name: FreeGrid
+
 Package: com.iosdump.hotaiqingli
 Version: 0.0.2
 Architecture: iphoneos-arm
@@ -2760,6 +2792,54 @@ Size: 56074
 MD5sum: 9ca5ef3d8d183cd90649500354f36210
 SHA1: 1b45fd88866a47748d71634ee5010e66153a41ba
 SHA256: 0347330d488bd52c0b1e9c647e2acb5ff5731ad318b87379228273d7085eec3e
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Author: iosdump
+Name: TrollCM
+
+Package: com.iosdump.trollcmtweak
+Version: 1.1.7
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.7_iphoneos-arm64e.deb
+Size: 56574
+MD5sum: 07620fdb901bfc7f995ec575692e9daa
+SHA1: 856ef31ba417571ae175cffa2d90b747da058a79
+SHA256: 8d43fbedb8d88122dcc38b6c0576e468ed17bfaca7d00a676535acb8aef24742
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Author: iosdump
+Name: TrollCM
+
+Package: com.iosdump.trollcmtweak
+Version: 1.1.7
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.7_iphoneos-arm.deb
+Size: 56712
+MD5sum: 0ef99286c814434ed675542021c45d69
+SHA1: 854ff4bc813f1e4c3604cfe32b50f4a51eae41c3
+SHA256: b698e18f5469a614e48b3bb811891f4e749a7724987d0074645ff8afbd0e60b8
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Author: iosdump
+Name: TrollCM
+
+Package: com.iosdump.trollcmtweak
+Version: 1.1.7
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.7_iphoneos-arm64.deb
+Size: 56746
+MD5sum: 7a28a59d9a40860c6cd6361371132b49
+SHA1: d275d56f496be8ef350bfa3cc0d3c1c151554eb5
+SHA256: 65461937eaa48e6f3a28e7142de488e69d86daab3555ffedc75c665fd558e048
 Section: Tweaks
 Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Author: iosdump
