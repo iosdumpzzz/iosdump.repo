@@ -3300,6 +3300,23 @@ Description: Helper utility to install and manage TrollStore!
 Author: opa334
 Name: TrollStore Helper
 
+Package: com.opa334.trollstorehelper
+Version: 2.1
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 4400
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.opa334.trollstorehelper_2.1_iphoneos-arm64e.deb
+Size: 4593662
+MD5sum: f2bd35ec3887ae10518adc107373fe3d
+SHA1: 59a6a44c1740bc14e6877a342ee7711376fa0ff0
+SHA256: 70f2da63b4052960fd6f3f795a52710a57202b4225977cc3bbded216ee71b495
+Section: 应用程序
+Description: 当你的巨魔打不开或者丢了，我想你会回来找它！
+Author: opa334
+Icon: https://s1.imagehub.cc/images/2025/01/21/e16a2f8fe58b0bdadf3641c868a71141.jpeg
+Name: TrollStore Helper
+
 Package: com.subdiox.storeswitcher2
 Version: 1.0.1
 Architecture: iphoneos-arm64e
