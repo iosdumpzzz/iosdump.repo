@@ -3317,6 +3317,23 @@ Author: opa334
 Icon: https://s1.imagehub.cc/images/2025/01/21/e16a2f8fe58b0bdadf3641c868a71141.jpeg
 Name: TrollStore Helper
 
+Package: com.opa334.trollstorehelper
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 4400
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.opa334.trollstorehelper_2.2_iphoneos-arm64e.deb
+Size: 4576162
+MD5sum: 0da05ace666ee26534d4b91873a4297e
+SHA1: d2ecee52eebe2cf60ea2655a7c611478b7ae40e7
+SHA256: 6175d845f2f7beb9ee366b2f85b9549466b2733d4d86fbbcc689df131a0b0716
+Section: 应用程序
+Description: 当你的巨魔打不开或者丢了，我想你会回来找它！
+Author: opa334
+Icon: https://s1.imagehub.cc/images/2025/01/21/e16a2f8fe58b0bdadf3641c868a71141.jpeg
+Name: TrollStore Helper
+
 Package: com.subdiox.storeswitcher2
 Version: 1.0.1
 Architecture: iphoneos-arm64
