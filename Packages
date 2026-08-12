@@ -3285,55 +3285,6 @@ Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS1
 Author: iosdump
 Name: Zone
 
-Package: com.opa334.trollstorehelper
-Version: 2.0.7
-Architecture: iphoneos-arm64
-Maintainer: opa334
-Installed-Size: 4280
-Filename: ./debs/com.opa334.trollstorehelper_2.0.7_iphoneos-arm64.deb
-Size: 1877034
-MD5sum: 0df2db181c015f13a3504dbdd4d3d9cb
-SHA1: e3ddad90cf83f926249c00b3a21baf2c3ba9f106
-SHA256: 1fa991bd5354bab1c33b6b9231a295308d0d486b065126768c71ccd9d02aa21e
-Section: Applications
-Description: Helper utility to install and manage TrollStore!
-Author: opa334
-Name: TrollStore Helper
-
-Package: com.opa334.trollstorehelper
-Version: 2.1
-Architecture: iphoneos-arm64e
-Maintainer: opa334
-Installed-Size: 4400
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/com.opa334.trollstorehelper_2.1_iphoneos-arm64e.deb
-Size: 4593662
-MD5sum: f2bd35ec3887ae10518adc107373fe3d
-SHA1: 59a6a44c1740bc14e6877a342ee7711376fa0ff0
-SHA256: 70f2da63b4052960fd6f3f795a52710a57202b4225977cc3bbded216ee71b495
-Section: 应用程序
-Description: 当你的巨魔打不开或者丢了，我想你会回来找它！
-Author: opa334
-Icon: https://s1.imagehub.cc/images/2025/01/21/e16a2f8fe58b0bdadf3641c868a71141.jpeg
-Name: TrollStore Helper
-
-Package: com.opa334.trollstorehelper
-Version: 2.2
-Architecture: iphoneos-arm64e
-Maintainer: opa334
-Installed-Size: 4400
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/com.opa334.trollstorehelper_2.2_iphoneos-arm64e.deb
-Size: 4576162
-MD5sum: 0da05ace666ee26534d4b91873a4297e
-SHA1: d2ecee52eebe2cf60ea2655a7c611478b7ae40e7
-SHA256: 6175d845f2f7beb9ee366b2f85b9549466b2733d4d86fbbcc689df131a0b0716
-Section: 应用程序
-Description: 当你的巨魔打不开或者丢了，我想你会回来找它！
-Author: opa334
-Icon: https://s1.imagehub.cc/images/2025/01/21/e16a2f8fe58b0bdadf3641c868a71141.jpeg
-Name: TrollStore Helper
-
 Package: com.subdiox.storeswitcher2
 Version: 1.0.1
 Architecture: iphoneos-arm64e
