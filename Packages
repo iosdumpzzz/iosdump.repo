@@ -37,22 +37,6 @@ Name: Crane PKDServer Fix
 
 Package: com.iosdump.airdrop
 Version: 0.0.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/com.iosdump.airdrop_0.0.1_iphoneos-arm64e.deb
-Size: 3318
-MD5sum: 7bc9c25417323a3567ca98305416161e
-SHA1: e44bdae3780f0cfe278030735bb8a4f0d15a89b6
-SHA256: ef40bfd34c208f2cc1e2011dee3160d4ea04788fb5650371e7054adf1f590a61
-Section: Tweaks
-Description: 解除隔空十分钟限制iOS16+
-Author: iosdump
-Name: AirDrop
-
-Package: com.iosdump.airdrop
-Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 168
@@ -68,18 +52,18 @@ Author: iosdump
 Name: AirDrop
 
 Package: com.iosdump.airdrop
-Version: 0.0.2
-Architecture: iphoneos-arm64
+Version: 0.0.1
+Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 172
+Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./debs/com.iosdump.airdrop_0.0.2_iphoneos-arm64.deb
-Size: 7478
-MD5sum: 96d50d9108878a2574fca9da775bd5ff
-SHA1: 5d81f954877fc96e7ae621d370564cf9dbec9a67
-SHA256: 7610e7532d76f78476598ed4dbf0942e24ad64bc09b72b27ff3d0ca1a3e2edc8
+Filename: ./debs/com.iosdump.airdrop_0.0.1_iphoneos-arm64e.deb
+Size: 3318
+MD5sum: 7bc9c25417323a3567ca98305416161e
+SHA1: e44bdae3780f0cfe278030735bb8a4f0d15a89b6
+SHA256: ef40bfd34c208f2cc1e2011dee3160d4ea04788fb5650371e7054adf1f590a61
 Section: Tweaks
-Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
+Description: 解除隔空十分钟限制iOS16+
 Author: iosdump
 Name: AirDrop
 
@@ -99,17 +83,34 @@ Description: 解除隔空投送十分钟限制，支持设置自定义关闭时�
 Author: iosdump
 Name: AirDrop
 
+Package: com.iosdump.airdrop
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.airdrop_0.0.2_iphoneos-arm64.deb
+Size: 7478
+MD5sum: 96d50d9108878a2574fca9da775bd5ff
+SHA1: 5d81f954877fc96e7ae621d370564cf9dbec9a67
+SHA256: 7610e7532d76f78476598ed4dbf0942e24ad64bc09b72b27ff3d0ca1a3e2edc8
+Section: Tweaks
+Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
+Author: iosdump
+Name: AirDrop
+
 Package: com.iosdump.appdata
 Version: 1.8.9
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64e
 Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_1.8.9_iphoneos-arm.deb
-Size: 295562
-MD5sum: afe2b1d2c93aa6db8b43bfe161b0ff1f
-SHA1: a50f5e2cdb8dea6a3ee1b37f9ef7f731defeec8c
-SHA256: c132f1f144b2af234758a17efecc097889dfef92a7cec409260471d78ef0b0a1
+Filename: ./debs/com.iosdump.appdata_1.8.9_iphoneos-arm64e.deb
+Size: 242348
+MD5sum: b1b93b66e80286eb88124c102f2c967e
+SHA1: 53fb2393b61ca4013177064bedfdd3d77a12fcf3
+SHA256: 94b9aad2526957e77c3766c05654a323a4da2d56d0909c1ccd68e42481a8ab4b
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: Fouad Raheb
@@ -135,16 +136,15 @@ Name: AppData
 
 Package: com.iosdump.appdata
 Version: 1.8.9
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm
 Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_1.8.9_iphoneos-arm64e.deb
-Size: 242348
-MD5sum: b1b93b66e80286eb88124c102f2c967e
-SHA1: 53fb2393b61ca4013177064bedfdd3d77a12fcf3
-SHA256: 94b9aad2526957e77c3766c05654a323a4da2d56d0909c1ccd68e42481a8ab4b
+Filename: ./debs/com.iosdump.appdata_1.8.9_iphoneos-arm.deb
+Size: 295562
+MD5sum: afe2b1d2c93aa6db8b43bfe161b0ff1f
+SHA1: a50f5e2cdb8dea6a3ee1b37f9ef7f731defeec8c
+SHA256: c132f1f144b2af234758a17efecc097889dfef92a7cec409260471d78ef0b0a1
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: Fouad Raheb
@@ -257,6 +257,24 @@ Name: AppData
 
 Package: com.iosdump.appdata
 Version: 1.9.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_1.9.2_iphoneos-arm64e.deb
+Size: 252044
+MD5sum: 9ac5ddd714018f9cf889bfd73a920cf2
+SHA1: 73f312ab1f94e775535f2c363db4da3c5116017e
+SHA256: c4a9cb04f0e4038d9ee3916fb19219bf29d9b6c27fd5cb4acffd1e67a6ed1c8c
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 1.9.2
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
@@ -290,24 +308,6 @@ Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
 Package: com.iosdump.appdata
-Version: 1.9.2
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_1.9.2_iphoneos-arm64e.deb
-Size: 252044
-MD5sum: 9ac5ddd714018f9cf889bfd73a920cf2
-SHA1: 73f312ab1f94e775535f2c363db4da3c5116017e
-SHA256: c4a9cb04f0e4038d9ee3916fb19219bf29d9b6c27fd5cb4acffd1e67a6ed1c8c
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
 Version: 1.9.3
 Architecture: iphoneos-arm
 Maintainer: iosdump
@@ -318,6 +318,23 @@ Size: 351790
 MD5sum: 234fabda943908b2ebf47652a7f096e4
 SHA1: e8f2675441a32b6f1efc26d5e9fd85b3f378b38e
 SHA256: 63a1b1d59fe5a960f08879d306ac7328807b2789715b420611940abc97d976ba
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 1.9.3
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_1.9.3_iphoneos-arm64.deb
+Size: 351820
+MD5sum: 60df696e32350216107fcf8b09c6fcf4
+SHA1: 085b0967ba5641e05160bccfdc38b236b7fa82af
+SHA256: d35609f7a7549c3437d90b7b6629515d96ae45abebdc0d1673aa9dc83952e79c
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: Fouad Raheb
@@ -343,34 +360,16 @@ Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
 Package: com.iosdump.appdata
-Version: 1.9.3
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_1.9.3_iphoneos-arm64.deb
-Size: 351820
-MD5sum: 60df696e32350216107fcf8b09c6fcf4
-SHA1: 085b0967ba5641e05160bccfdc38b236b7fa82af
-SHA256: d35609f7a7549c3437d90b7b6629515d96ae45abebdc0d1673aa9dc83952e79c
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
 Version: 1.9.4
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm
 Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_1.9.4_iphoneos-arm64e.deb
-Size: 290928
-MD5sum: cf0cdfa71a6ab563444da342391bc358
-SHA1: d13eda0e7c9f0fed8cdec4dadf7f66b3e249bcee
-SHA256: 1bd05ca1f92b95281835d22d43232e9a02dd59639e06c97954f52f639c0835bb
+Filename: ./debs/com.iosdump.appdata_1.9.4_iphoneos-arm.deb
+Size: 352074
+MD5sum: cd923684a86cdc7841fb8cd1e99fe57f
+SHA1: e0c03e270f772331bca4844be7cb0cc0333afaa6
+SHA256: 93f3be2092db1dee39798dfaed191a9742e83b8b3c5aaa5a4f246de4e6dbb63a
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: Fouad Raheb
@@ -396,15 +395,16 @@ Name: AppData
 
 Package: com.iosdump.appdata
 Version: 1.9.4
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64e
 Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_1.9.4_iphoneos-arm.deb
-Size: 352074
-MD5sum: cd923684a86cdc7841fb8cd1e99fe57f
-SHA1: e0c03e270f772331bca4844be7cb0cc0333afaa6
-SHA256: 93f3be2092db1dee39798dfaed191a9742e83b8b3c5aaa5a4f246de4e6dbb63a
+Filename: ./debs/com.iosdump.appdata_1.9.4_iphoneos-arm64e.deb
+Size: 290928
+MD5sum: cf0cdfa71a6ab563444da342391bc358
+SHA1: d13eda0e7c9f0fed8cdec4dadf7f66b3e249bcee
+SHA256: 1bd05ca1f92b95281835d22d43232e9a02dd59639e06c97954f52f639c0835bb
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: Fouad Raheb
@@ -517,6 +517,24 @@ Name: AppData
 
 Package: com.iosdump.appdata
 Version: 1.9.7
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_1.9.7_iphoneos-arm64e.deb
+Size: 308742
+MD5sum: 2b03ee53d7ea3633ad64329f9ab2354a
+SHA1: f665e081d1714d2a23747cb6ef57310af695aded
+SHA256: 2eab1c5e1a80f35daf1a8e9037fadc2aeef4c27a03d32dc7effdcf01ab215716
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 1.9.7
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
@@ -543,24 +561,6 @@ Size: 374176
 MD5sum: 8ad1a051a361289272949b05fbf46730
 SHA1: ccb26120a11231c8b143545e659173ff1f02339d
 SHA256: d48c0c9d650d0edcd81b489f2a7b00406d34f350ede801eb1891fc5e1d563ce5
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.7
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_1.9.7_iphoneos-arm64e.deb
-Size: 308742
-MD5sum: 2b03ee53d7ea3633ad64329f9ab2354a
-SHA1: f665e081d1714d2a23747cb6ef57310af695aded
-SHA256: 2eab1c5e1a80f35daf1a8e9037fadc2aeef4c27a03d32dc7effdcf01ab215716
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: Fouad Raheb
@@ -621,23 +621,6 @@ Name: AppData
 
 Package: com.iosdump.appdata
 Version: 2.1.0
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.1.0_iphoneos-arm64.deb
-Size: 394484
-MD5sum: e0e5523625cf110d915ff4c6778101de
-SHA1: cf407c68a08e2f05d7065af4e37d35eb40e447a8
-SHA256: 6410dd3b6cdfcfebc86b80bebae821f7fa07f982337cecc90d97461f89a8d072
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 2.1.0
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Pre-Depends: rootless-compat(>= 0.9)
@@ -672,16 +655,33 @@ Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
 Package: com.iosdump.appdata
-Version: 2.2.0
+Version: 2.1.0
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.2.0_iphoneos-arm64.deb
-Size: 435392
-MD5sum: d4003ef4341344dcdfddfcff9d200082
-SHA1: bcb068531118bf9e21a83c41cd92c02d2174deeb
-SHA256: f156e243f84ec937495b58e70c9c362fed7b04f479f4736cb780146d5d7b8f45
+Filename: ./debs/com.iosdump.appdata_2.1.0_iphoneos-arm64.deb
+Size: 394484
+MD5sum: e0e5523625cf110d915ff4c6778101de
+SHA1: cf407c68a08e2f05d7065af4e37d35eb40e447a8
+SHA256: 6410dd3b6cdfcfebc86b80bebae821f7fa07f982337cecc90d97461f89a8d072
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.2.0
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.2.0_iphoneos-arm.deb
+Size: 435352
+MD5sum: e0ae16e87106556e1379c72d0cfdda21
+SHA1: 01048e093b0d5e4373689b3d5c2a5e17a2d4addd
+SHA256: 3aa95fd713f0e34af7f4c2d06f2a2b1b78ea6ab720ab1c529d5c3c66de2678bc
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: Fouad Raheb
@@ -708,15 +708,32 @@ Name: AppData
 
 Package: com.iosdump.appdata
 Version: 2.2.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.2.0_iphoneos-arm64.deb
+Size: 435392
+MD5sum: d4003ef4341344dcdfddfcff9d200082
+SHA1: bcb068531118bf9e21a83c41cd92c02d2174deeb
+SHA256: f156e243f84ec937495b58e70c9c362fed7b04f479f4736cb780146d5d7b8f45
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.3.0
 Architecture: iphoneos-arm
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.2.0_iphoneos-arm.deb
-Size: 435352
-MD5sum: e0ae16e87106556e1379c72d0cfdda21
-SHA1: 01048e093b0d5e4373689b3d5c2a5e17a2d4addd
-SHA256: 3aa95fd713f0e34af7f4c2d06f2a2b1b78ea6ab720ab1c529d5c3c66de2678bc
+Filename: ./debs/com.iosdump.appdata_2.3.0_iphoneos-arm.deb
+Size: 466552
+MD5sum: f3b87d06475ba64855cbd3f7845aa2bf
+SHA1: 0d90ccc247ffe45803fed73cd3b0d409c6529936
+SHA256: 6310e61fcaaf684282c7a338ec16944de44d19ffc11d2a753bd2e8e213d2f934
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: Fouad Raheb
@@ -759,19 +776,20 @@ Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
 Package: com.iosdump.appdata
-Version: 2.3.0
-Architecture: iphoneos-arm
+Version: 2.4.0
+Architecture: iphoneos-arm64e
 Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.3.0_iphoneos-arm.deb
-Size: 466552
-MD5sum: f3b87d06475ba64855cbd3f7845aa2bf
-SHA1: 0d90ccc247ffe45803fed73cd3b0d409c6529936
-SHA256: 6310e61fcaaf684282c7a338ec16944de44d19ffc11d2a753bd2e8e213d2f934
+Filename: ./debs/com.iosdump.appdata_2.4.0_iphoneos-arm64e.deb
+Size: 2380480
+MD5sum: 48ea0c33ff889e537b53e823ad17b32c
+SHA1: 32dc592dc2f95efcd3348db39cfa3a833ebcd484
+SHA256: 8ee5705c50c4483870b93ac49262592ede231a2634fcab352dc6793a1c75510b
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
+Author: iosdump
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
@@ -786,24 +804,6 @@ Size: 1270756
 MD5sum: 24b48376da58104dc8b12f39f9c1de2f
 SHA1: ed6c40cf0483597afe16c502a11ef227a6a8746a
 SHA256: 3b0ce36a1f99b45d1d037f0256404f11bf7df4373126cc1d304436220906c23a
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: iosdump
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 2.4.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.4.0_iphoneos-arm64e.deb
-Size: 2380480
-MD5sum: 48ea0c33ff889e537b53e823ad17b32c
-SHA1: 32dc592dc2f95efcd3348db39cfa3a833ebcd484
-SHA256: 8ee5705c50c4483870b93ac49262592ede231a2634fcab352dc6793a1c75510b
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: iosdump
@@ -881,6 +881,23 @@ Name: AppData
 
 Package: com.iosdump.appdata
 Version: 2.5.3
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.5.3_iphoneos-arm.deb
+Size: 1857468
+MD5sum: 3ebe7941f3039dce0abe947315dad2d8
+SHA1: a067135974c81eea6225bc747f589e651c44c759
+SHA256: 71ef408cec3dc4c2dc10756f1587bcbb307133d0c381770fb8ab36c02ebe20cc
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.5.3
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Pre-Depends: rootless-compat(>= 0.9)
@@ -891,23 +908,6 @@ Size: 3552948
 MD5sum: 80eafe3fdf4a34c26083d5e2af21ddf3
 SHA1: 9031a77cbfe44ca4fd6254d9e510baefe1b1a88f
 SHA256: cac768c3ce43384bdaf0eee355905d5bb95a8708508e8f28ae41596ed1efc808
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: iosdump
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 2.5.3
-Architecture: iphoneos-arm
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.5.3_iphoneos-arm.deb
-Size: 1857468
-MD5sum: 3ebe7941f3039dce0abe947315dad2d8
-SHA1: a067135974c81eea6225bc747f589e651c44c759
-SHA256: 71ef408cec3dc4c2dc10756f1587bcbb307133d0c381770fb8ab36c02ebe20cc
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: iosdump
@@ -951,23 +951,6 @@ Name: AppData
 
 Package: com.iosdump.appdata
 Version: 2.6.1
-Architecture: iphoneos-arm
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.6.1_iphoneos-arm.deb
-Size: 1904168
-MD5sum: a467981984df51cc5b10c3ae89323d65
-SHA1: 33799d7812bb8bd07afd03e7b0b10ee70f96954b
-SHA256: 98a5ba6c8c89f52901fc0a12cd1425673a0ce58d6494e0235117491ba01adb8a
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: iosdump
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 2.6.1
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
@@ -977,6 +960,23 @@ Size: 1904292
 MD5sum: 44640f79243da4f115a983d6209550e7
 SHA1: 3be1c2373d29fa77bbd9fab9da5f1ba8b8d763f1
 SHA256: 60aca8f4439ca6e80e5b5ab1c47783f775cb96301c1a1ca4a2c45b0d229d7baa
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.6.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.6.1_iphoneos-arm.deb
+Size: 1904168
+MD5sum: a467981984df51cc5b10c3ae89323d65
+SHA1: 33799d7812bb8bd07afd03e7b0b10ee70f96954b
+SHA256: 98a5ba6c8c89f52901fc0a12cd1425673a0ce58d6494e0235117491ba01adb8a
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据
 Author: iosdump
@@ -1003,23 +1003,6 @@ Name: AppData
 
 Package: com.iosdump.appdata
 Version: 2.6.6
-Architecture: iphoneos-arm
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.6.6_iphoneos-arm.deb
-Size: 2067118
-MD5sum: 0f7959dcd66caa14c5fb291c269bd1a0
-SHA1: f927569cbff2d66c02353a9df0a15875f2ea6b32
-SHA256: 22f46b4f549438b90ed0ef97df9e20af43bceeef002b8dd6c27f850760b34b78
-Section: Tweaks
-Description: 在主屏幕查看应用数据与管理应用
-Author: iosdump
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 2.6.6
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
@@ -1036,33 +1019,16 @@ Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
 Package: com.iosdump.appdata
-Version: 2.6.7
+Version: 2.6.6
 Architecture: iphoneos-arm
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.6.7_iphoneos-arm.deb
-Size: 2064586
-MD5sum: de0b16e355afe0a2cbc19b0647e681f1
-SHA1: cf44a73abfe561132cf7950006b74741d3d7f33b
-SHA256: d03249e0ba1e6b032f43e3e83a7acef8fae451c0399e064266327514b504f7d9
-Section: Tweaks
-Description: 在主屏幕查看应用数据与管理应用
-Author: iosdump
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 2.6.7
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.6.7_iphoneos-arm64.deb
-Size: 2064710
-MD5sum: 15e736ba5b3838fdc426bbc425fdc9f8
-SHA1: 9ec0b5d172a2cda7a843cc63bebbab34cf5e76ce
-SHA256: 05cbce2b19b43fee0f43ebe2a764e3eb446be2eb719601e3af2cc71e6f44d0c9
+Filename: ./debs/com.iosdump.appdata_2.6.6_iphoneos-arm.deb
+Size: 2067118
+MD5sum: 0f7959dcd66caa14c5fb291c269bd1a0
+SHA1: f927569cbff2d66c02353a9df0a15875f2ea6b32
+SHA256: 22f46b4f549438b90ed0ef97df9e20af43bceeef002b8dd6c27f850760b34b78
 Section: Tweaks
 Description: 在主屏幕查看应用数据与管理应用
 Author: iosdump
@@ -1088,17 +1054,50 @@ Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
 Package: com.iosdump.appdata
-Version: 2.6.8
-Architecture: iphoneos-arm64e
+Version: 2.6.7
+Architecture: iphoneos-arm64
 Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.6.8_iphoneos-arm64e.deb
-Size: 3929940
-MD5sum: f46a4768593220292ade248c9e4a5693
-SHA1: c7c3c133078b362c3748afc52e61ae1eaeeca7b1
-SHA256: 3f49979f7373d8eb15332942e85883cb33b6addebf0ced88c40915dd8d221465
+Filename: ./debs/com.iosdump.appdata_2.6.7_iphoneos-arm64.deb
+Size: 2064710
+MD5sum: 15e736ba5b3838fdc426bbc425fdc9f8
+SHA1: 9ec0b5d172a2cda7a843cc63bebbab34cf5e76ce
+SHA256: 05cbce2b19b43fee0f43ebe2a764e3eb446be2eb719601e3af2cc71e6f44d0c9
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.6.7
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.6.7_iphoneos-arm.deb
+Size: 2064586
+MD5sum: de0b16e355afe0a2cbc19b0647e681f1
+SHA1: cf44a73abfe561132cf7950006b74741d3d7f33b
+SHA256: d03249e0ba1e6b032f43e3e83a7acef8fae451c0399e064266327514b504f7d9
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.6.8
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.6.8_iphoneos-arm64.deb
+Size: 2076958
+MD5sum: 66a94bfb884012ca467b4ba089e9cfd1
+SHA1: 401d4b5983d5ade5f6e390eab117b4991cf09948
+SHA256: 13f43239489f5c76192984de34a7b74ef47e13b9859af7e27022e3b3ec92c468
 Section: Tweaks
 Description: 在主屏幕查看应用数据与管理应用
 Author: iosdump
@@ -1124,15 +1123,33 @@ Name: AppData
 
 Package: com.iosdump.appdata
 Version: 2.6.8
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.6.8_iphoneos-arm64e.deb
+Size: 3929940
+MD5sum: f46a4768593220292ade248c9e4a5693
+SHA1: c7c3c133078b362c3748afc52e61ae1eaeeca7b1
+SHA256: 3f49979f7373d8eb15332942e85883cb33b6addebf0ced88c40915dd8d221465
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.6.9
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.6.8_iphoneos-arm64.deb
-Size: 2076958
-MD5sum: 66a94bfb884012ca467b4ba089e9cfd1
-SHA1: 401d4b5983d5ade5f6e390eab117b4991cf09948
-SHA256: 13f43239489f5c76192984de34a7b74ef47e13b9859af7e27022e3b3ec92c468
+Filename: ./debs/com.iosdump.appdata_2.6.9_iphoneos-arm64.deb
+Size: 2077012
+MD5sum: 9f5529b945767855cd84b2c50db368c7
+SHA1: 25aec48697b0a21bd000a252311838ff88c5fd83
+SHA256: 06314a02cd6a04fa7c1f24d3b7a8a0c1154c6834795971741e42fc669e8e27cb
 Section: Tweaks
 Description: 在主屏幕查看应用数据与管理应用
 Author: iosdump
@@ -1174,39 +1191,6 @@ Author: iosdump
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
-Package: com.iosdump.appdata
-Version: 2.6.9
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: ./debs/com.iosdump.appdata_2.6.9_iphoneos-arm64.deb
-Size: 2077012
-MD5sum: 9f5529b945767855cd84b2c50db368c7
-SHA1: 25aec48697b0a21bd000a252311838ff88c5fd83
-SHA256: 06314a02cd6a04fa7c1f24d3b7a8a0c1154c6834795971741e42fc669e8e27cb
-Section: Tweaks
-Description: 在主屏幕查看应用数据与管理应用
-Author: iosdump
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appmute
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: iosdump
-Installed-Size: 172
-Depends: mobilesubstrate
-Filename: ./debs/com.iosdump.appmute_0.0.1_iphoneos-arm.deb
-Size: 11722
-MD5sum: 02caf2a2b3a7c1e4fbbe52a2edc970c4
-SHA1: 0708f20f44f83820aeb69df8da9609c3ce85d968
-SHA256: 848afb98cfc024e778fb338df0c2cc1b3b04b06c608007c5a164d9e5b142d3a9
-Section: Tweaks
-Description: 支持iOS14-17桌面长按图标快捷开启启动应用自动静音媒体音量开关。
-Author: iosdump
-Name: AppMute
-
 Package: com.iosdump.appmute
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -1238,6 +1222,39 @@ Section: Tweaks
 Description: 支持iOS14-17桌面长按图标快捷开启启动应用自动静音媒体音量开关。
 Author: iosdump
 Name: AppMute
+
+Package: com.iosdump.appmute
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.appmute_0.0.1_iphoneos-arm.deb
+Size: 11722
+MD5sum: 02caf2a2b3a7c1e4fbbe52a2edc970c4
+SHA1: 0708f20f44f83820aeb69df8da9609c3ce85d968
+SHA256: 848afb98cfc024e778fb338df0c2cc1b3b04b06c608007c5a164d9e5b142d3a9
+Section: Tweaks
+Description: 支持iOS14-17桌面长按图标快捷开启启动应用自动静音媒体音量开关。
+Author: iosdump
+Name: AppMute
+
+Package: com.iosdump.customcallbg
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 408
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.1_iphoneos-arm64e.deb
+Size: 40126
+MD5sum: 17428d7adebae39f07e3410f6d67fe04
+SHA1: bf35c069ed1f5ae7c2ccd6cac1b00e9f8c5b0ff5
+SHA256: 4c0c37dc0ffc019e7fc45e026c17fd3816cf1987999ceb7077405b632e9efda6
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
 
 Package: com.iosdump.customcallbg
 Version: 0.0.1
@@ -1272,33 +1289,16 @@ Author: iosdump
 Name: CustomCallBg
 
 Package: com.iosdump.customcallbg
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 408
-Pre-Depends: rootless-compat(>= 0.9)
+Installed-Size: 424
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.customcallbg_0.0.1_iphoneos-arm64e.deb
-Size: 40126
-MD5sum: 17428d7adebae39f07e3410f6d67fe04
-SHA1: bf35c069ed1f5ae7c2ccd6cac1b00e9f8c5b0ff5
-SHA256: 4c0c37dc0ffc019e7fc45e026c17fd3816cf1987999ceb7077405b632e9efda6
-Section: Tweaks
-Description: iOS 14-17 自定义来去电背景插件
-Author: iosdump
-Name: CustomCallBg
-
-Package: com.iosdump.customcallbg
-Version: 0.0.2
-Architecture: iphoneos-arm
-Maintainer: iosdump
-Installed-Size: 428
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.customcallbg_0.0.2_iphoneos-arm.deb
-Size: 32732
-MD5sum: f21d6b2c69d731c362446d3b2bbde936
-SHA1: a31cb643b2cdf6c281f861ea42943ed600ecb71f
-SHA256: 17dc6853d3081a6db10e457f79da1b6de313a88dd95779eb9a739d13db0e9c1f
+Filename: ./debs/com.iosdump.customcallbg_0.0.2_iphoneos-arm64e.deb
+Size: 31088
+MD5sum: 1a66525de098ea3868e5d9c3cc48b89c
+SHA1: a638f755f2b42bf2b045e7e661808da23a9a6469
+SHA256: a923d7b75456395a2077685b8cfa4a73aaa16fa0667c287c901de7852d9225b2
 Section: Tweaks
 Description: iOS 14-17 自定义来去电背景插件
 Author: iosdump
@@ -1322,15 +1322,15 @@ Name: CustomCallBg
 
 Package: com.iosdump.customcallbg
 Version: 0.0.2
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm
 Maintainer: iosdump
-Installed-Size: 424
+Installed-Size: 428
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.customcallbg_0.0.2_iphoneos-arm64e.deb
-Size: 31088
-MD5sum: 1a66525de098ea3868e5d9c3cc48b89c
-SHA1: a638f755f2b42bf2b045e7e661808da23a9a6469
-SHA256: a923d7b75456395a2077685b8cfa4a73aaa16fa0667c287c901de7852d9225b2
+Filename: ./debs/com.iosdump.customcallbg_0.0.2_iphoneos-arm.deb
+Size: 32732
+MD5sum: f21d6b2c69d731c362446d3b2bbde936
+SHA1: a31cb643b2cdf6c281f861ea42943ed600ecb71f
+SHA256: 17dc6853d3081a6db10e457f79da1b6de313a88dd95779eb9a739d13db0e9c1f
 Section: Tweaks
 Description: iOS 14-17 自定义来去电背景插件
 Author: iosdump
@@ -1354,22 +1354,6 @@ Name: CustomCallBg
 
 Package: com.iosdump.customcallbg
 Version: 0.0.3
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 408
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.customcallbg_0.0.3_iphoneos-arm64e.deb
-Size: 28954
-MD5sum: 7f601aaade69d595976d266b207dce36
-SHA1: c78cf1512498c45a4bc808283f50c87c71f7bd7a
-SHA256: 789a721be281ad1c7d3fed4b93119e8247b6f10876f352240b6042c631c79d32
-Section: Tweaks
-Description: iOS 14-17 自定义来去电背景插件
-Author: iosdump
-Name: CustomCallBg
-
-Package: com.iosdump.customcallbg
-Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 428
@@ -1379,6 +1363,22 @@ Size: 30586
 MD5sum: eeb3d24208e0d6a73589ef427425a8c8
 SHA1: 241a8d78c63abaee727eee96fc770487942ca0e8
 SHA256: 1dbe37676ef6a6def24c18966e5a290dfe7a3379f74a969d16c1a4bc267122a9
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 408
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.3_iphoneos-arm64e.deb
+Size: 28954
+MD5sum: 7f601aaade69d595976d266b207dce36
+SHA1: c78cf1512498c45a4bc808283f50c87c71f7bd7a
+SHA256: 789a721be281ad1c7d3fed4b93119e8247b6f10876f352240b6042c631c79d32
 Section: Tweaks
 Description: iOS 14-17 自定义来去电背景插件
 Author: iosdump
@@ -1402,6 +1402,22 @@ Name: CustomCallBg
 
 Package: com.iosdump.customcallbg
 Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customcallbg_0.0.4_iphoneos-arm.deb
+Size: 33962
+MD5sum: 89da498aa51378aaf7e1757fb30a7875
+SHA1: 3c9973bc7dafe524196112a089740b223e0b070c
+SHA256: 24f428739f5ff43ab25ad98bd30328b765165d8b42bdc37e1d2f83809397125a
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Author: iosdump
+Name: CustomCallBg
+
+Package: com.iosdump.customcallbg
+Version: 0.0.4
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 428
@@ -1417,16 +1433,16 @@ Author: iosdump
 Name: CustomCallBg
 
 Package: com.iosdump.customcallbg
-Version: 0.0.4
-Architecture: iphoneos-arm
+Version: 0.0.5
+Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 428
+Installed-Size: 460
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.customcallbg_0.0.4_iphoneos-arm.deb
-Size: 33962
-MD5sum: 89da498aa51378aaf7e1757fb30a7875
-SHA1: 3c9973bc7dafe524196112a089740b223e0b070c
-SHA256: 24f428739f5ff43ab25ad98bd30328b765165d8b42bdc37e1d2f83809397125a
+Filename: ./debs/com.iosdump.customcallbg_0.0.5_iphoneos-arm64e.deb
+Size: 39818
+MD5sum: 847d752462d9edd86f391aa85b13a1b0
+SHA1: 646d38c36950f26f3fdb8d6969da623d1341af1e
+SHA256: 1526958b3f01861d9b0bec81505148ffc6e4b23993399275e66f62ae045f4a3c
 Section: Tweaks
 Description: iOS 14-17 自定义来去电背景插件
 Author: iosdump
@@ -1465,22 +1481,6 @@ Author: iosdump
 Name: CustomCallBg
 
 Package: com.iosdump.customcallbg
-Version: 0.0.5
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 460
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.customcallbg_0.0.5_iphoneos-arm64e.deb
-Size: 39818
-MD5sum: 847d752462d9edd86f391aa85b13a1b0
-SHA1: 646d38c36950f26f3fdb8d6969da623d1341af1e
-SHA256: 1526958b3f01861d9b0bec81505148ffc6e4b23993399275e66f62ae045f4a3c
-Section: Tweaks
-Description: iOS 14-17 自定义来去电背景插件
-Author: iosdump
-Name: CustomCallBg
-
-Package: com.iosdump.customcallbg
 Version: 0.0.6
 Architecture: iphoneos-arm64
 Maintainer: iosdump
@@ -1491,22 +1491,6 @@ Size: 69734
 MD5sum: fc37959ebfe5a073fd3dafce64148c50
 SHA1: 955c7729c7a378b1cd3ccb4d69af98da40c528d0
 SHA256: 333760a89b0ae242c097dcfe7e320562b42da519da9b3b9abdaf78fb2d90f592
-Section: Tweaks
-Description: iOS 14-17 自定义来去电背景插件
-Author: iosdump
-Name: CustomCallBg
-
-Package: com.iosdump.customcallbg
-Version: 0.0.6
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 748
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64e.deb
-Size: 68088
-MD5sum: bc49bc7184659b981f51db39667948af
-SHA1: ff9f9ba66993f5a5f6e1aa2cf61c14e73d1231d0
-SHA256: d3e2eb92b2a62b38a4dbd585f58eefce6ea4e03d642479d34091e182f696725a
 Section: Tweaks
 Description: iOS 14-17 自定义来去电背景插件
 Author: iosdump
@@ -1528,21 +1512,21 @@ Description: iOS 14-17 自定义来去电背景插件
 Author: iosdump
 Name: CustomCallBg
 
-Package: com.iosdump.customccbg
-Version: 0.0.1
-Architecture: iphoneos-arm
+Package: com.iosdump.customcallbg
+Version: 0.0.6
+Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 388
+Installed-Size: 748
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.customccbg_0.0.1_iphoneos-arm.deb
-Size: 47304
-MD5sum: 1332071c2fcf9b36291d70b88c202be6
-SHA1: 95b4f9dadf40f459b984e4c8c54530ac39424f58
-SHA256: 4dbf3d62ebfd05a03d12c29adc80334e6f89a49a668d8b30500a2e2fedd52e4a
+Filename: ./debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64e.deb
+Size: 68088
+MD5sum: bc49bc7184659b981f51db39667948af
+SHA1: ff9f9ba66993f5a5f6e1aa2cf61c14e73d1231d0
+SHA256: d3e2eb92b2a62b38a4dbd585f58eefce6ea4e03d642479d34091e182f696725a
 Section: Tweaks
-Description: iOS 14-17 控制中心背景自定义
+Description: iOS 14-17 自定义来去电背景插件
 Author: iosdump
-Name: CustomCCBg
+Name: CustomCallBg
 
 Package: com.iosdump.customccbg
 Version: 0.0.1
@@ -1555,6 +1539,22 @@ Size: 47200
 MD5sum: e7822a620b5e9053c7cadd308f8db245
 SHA1: 1da91e0b614caf220c8a13d02c47d5ee73ddd31b
 SHA256: 4d86b21c9604c0a076d7f4d00b0a9886c66a88c7ee3be5451a39808c4e60a4b2
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
+
+Package: com.iosdump.customccbg
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customccbg_0.0.1_iphoneos-arm.deb
+Size: 47304
+MD5sum: 1332071c2fcf9b36291d70b88c202be6
+SHA1: 95b4f9dadf40f459b984e4c8c54530ac39424f58
+SHA256: 4dbf3d62ebfd05a03d12c29adc80334e6f89a49a668d8b30500a2e2fedd52e4a
 Section: Tweaks
 Description: iOS 14-17 控制中心背景自定义
 Author: iosdump
@@ -1578,22 +1578,6 @@ Name: CustomCCBg
 
 Package: com.iosdump.customccbg
 Version: 0.0.3
-Architecture: iphoneos-arm
-Maintainer: iosdump
-Installed-Size: 420
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.customccbg_0.0.3_iphoneos-arm.deb
-Size: 49696
-MD5sum: 022c488fb65fcbdd58b9da3835b05a57
-SHA1: 63893d7bf386258bd9c3c31c38cfb84757f286f9
-SHA256: d59fdead64c9591d24f746ebf7282d2d0397bde96a93cbccca2331931bc94861
-Section: Tweaks
-Description: iOS 14-17 控制中心背景自定义
-Author: iosdump
-Name: CustomCCBg
-
-Package: com.iosdump.customccbg
-Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 420
@@ -1603,6 +1587,22 @@ Size: 49654
 MD5sum: 9d643e0431e3f6424a09c78ae8bfa217
 SHA1: 1fbaf876665703e5fef869690b8087a58666aee5
 SHA256: 102efd4d49fb2c738b35c5e40e2f827a23334954e6d42216e4530c97c79bd7e8
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
+
+Package: com.iosdump.customccbg
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customccbg_0.0.3_iphoneos-arm.deb
+Size: 49696
+MD5sum: 022c488fb65fcbdd58b9da3835b05a57
+SHA1: 63893d7bf386258bd9c3c31c38cfb84757f286f9
+SHA256: d59fdead64c9591d24f746ebf7282d2d0397bde96a93cbccca2331931bc94861
 Section: Tweaks
 Description: iOS 14-17 控制中心背景自定义
 Author: iosdump
@@ -1623,6 +1623,22 @@ Section: Tweaks
 Description: iOS 14-17 控制中心背景自定义
 Author: iosdump
 Name: CustomCCBg
+
+Package: com.iosdump.customvpnicon
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 408
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.customvpnicon_0.1_iphoneos-arm64.deb
+Size: 38870
+MD5sum: 94781918194073027c62956f36b33685
+SHA1: c8324db9507dd6a621e2fd038c8a56276583aea3
+SHA256: 037cd7191c3a6b517d0f01e8e25c776c4403c36a67a3dd6af000a3fcd40056f6
+Section: Tweaks
+Description: iOS 14-17 自定义VPN图标
+Author: iosdump
+Name: CustomVpnIcon
 
 Package: com.iosdump.customvpnicon
 Version: 0.1
@@ -1656,21 +1672,20 @@ Description: iOS 14-17 自定义VPN图标
 Author: iosdump
 Name: CustomVpnIcon
 
-Package: com.iosdump.customvpnicon
-Version: 0.1
+Package: com.iosdump.filzacarplugin
+Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 408
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.customvpnicon_0.1_iphoneos-arm64.deb
-Size: 38870
-MD5sum: 94781918194073027c62956f36b33685
-SHA1: c8324db9507dd6a621e2fd038c8a56276583aea3
-SHA256: 037cd7191c3a6b517d0f01e8e25c776c4403c36a67a3dd6af000a3fcd40056f6
+Installed-Size: 10644
+Filename: ./debs/com.iosdump.filzacarplugin_1.0.0_iphoneos-arm64.deb
+Size: 5421184
+MD5sum: 3d14d1a1c533f49dc6dcc88ad23b1e55
+SHA1: 77206928fc18ae50a21a2357be9703a6c76cb99b
+SHA256: fedf800f3de6eed4d9f683e9cdae4b5eee076a27c46c540a2efb0bfbf459c87d
 Section: Tweaks
-Description: iOS 14-17 自定义VPN图标
+Description: 提取与修改 Assets.car 资源 (Filza 插件)
 Author: iosdump
-Name: CustomVpnIcon
+Name: FilzaCarPlugin
 
 Package: com.iosdump.filzacarplugin
 Version: 1.0.0
@@ -1683,21 +1698,6 @@ Size: 21339848
 MD5sum: 4db3207708255ca792ac6a15e31a0e0c
 SHA1: ae2f72ad878f8b0c188a5bb8c9f324b0a96acd25
 SHA256: 5e8742acda5c9526602e0d0223f4fa125c5635861f024da4456f6dba487f0cf3
-Section: Tweaks
-Description: 提取与修改 Assets.car 资源 (Filza 插件)
-Author: iosdump
-Name: FilzaCarPlugin
-
-Package: com.iosdump.filzacarplugin
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 10644
-Filename: ./debs/com.iosdump.filzacarplugin_1.0.0_iphoneos-arm64.deb
-Size: 5421184
-MD5sum: 3d14d1a1c533f49dc6dcc88ad23b1e55
-SHA1: 77206928fc18ae50a21a2357be9703a6c76cb99b
-SHA256: fedf800f3de6eed4d9f683e9cdae4b5eee076a27c46c540a2efb0bfbf459c87d
 Section: Tweaks
 Description: 提取与修改 Assets.car 资源 (Filza 插件)
 Author: iosdump
@@ -1719,22 +1719,6 @@ Name: Filza Open (shell)
 
 Package: com.iosdump.freegrid
 Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 204
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/com.iosdump.freegrid_0.0.1_iphoneos-arm64.deb
-Size: 13832
-MD5sum: 703c5c27625dc6921c9b8a491b68f334
-SHA1: d726924e3f0b1c1610dc8d51dab048f0f634508e
-SHA256: c8976595914d154264f45c752f6e05ea9b22c1e9fc6de8b0746f4b31a19934a0
-Section: Tweaks
-Description: 桌面图标随意摆放，仅支持 iOS 17
-Author: iosdump
-Name: FreeGrid
-
-Package: com.iosdump.freegrid
-Version: 0.0.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Installed-Size: 204
@@ -1749,21 +1733,21 @@ Description: 桌面图标随意摆放，仅支持 iOS 17
 Author: iosdump
 Name: FreeGrid
 
-Package: com.iosdump.hotaiqingli
-Version: 0.0.2
-Architecture: iphoneos-arm
+Package: com.iosdump.freegrid
+Version: 0.0.1
+Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 240
-Depends: mobilesubstrate
-Filename: ./debs/com.iosdump.hotaiqingli_0.0.2_iphoneos-arm.deb
-Size: 24446
-MD5sum: 2090734ebd6d805c4abc21e5c09d7a8c
-SHA1: 8d377941a4138f883f3661eea32abac59959a2ba
-SHA256: b38a62a59da0b3067ccc3d4ceedc753b7309692fbfb79c9cacd44db03ea87495
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.iosdump.freegrid_0.0.1_iphoneos-arm64.deb
+Size: 13832
+MD5sum: 703c5c27625dc6921c9b8a491b68f334
+SHA1: d726924e3f0b1c1610dc8d51dab048f0f634508e
+SHA256: c8976595914d154264f45c752f6e05ea9b22c1e9fc6de8b0746f4b31a19934a0
 Section: Tweaks
-Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
+Description: 桌面图标随意摆放，仅支持 iOS 17
 Author: iosdump
-Name: 后台一键清理
+Name: FreeGrid
 
 Package: com.iosdump.hotaiqingli
 Version: 0.0.2
@@ -1797,21 +1781,21 @@ Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
 Author: iosdump
 Name: 后台一键清理
 
-Package: com.iosdump.jumpselect
-Version: 0.0.3
-Architecture: iphoneos-arm64e
+Package: com.iosdump.hotaiqingli
+Version: 0.0.2
+Architecture: iphoneos-arm
 Maintainer: iosdump
-Installed-Size: 444
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.jumpselect_0.0.3_iphoneos-arm64e.deb
-Size: 49968
-MD5sum: 9794d74b10c76f3963a2274581ca0ee7
-SHA1: f2a97ed5349ff946afa9a6f703e524aa03349489
-SHA256: f3f93dc0cd5635119eb93c602f0326264847b9b9e4720dd7442fb5a7dd42d200
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.hotaiqingli_0.0.2_iphoneos-arm.deb
+Size: 24446
+MD5sum: 2090734ebd6d805c4abc21e5c09d7a8c
+SHA1: 8d377941a4138f883f3661eea32abac59959a2ba
+SHA256: b38a62a59da0b3067ccc3d4ceedc753b7309692fbfb79c9cacd44db03ea87495
 Section: Tweaks
-Description: iOS 14-17 App跳转拦截重定向选择器。
+Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
 Author: iosdump
-Name: JumpSelect
+Name: 后台一键清理
 
 Package: com.iosdump.jumpselect
 Version: 0.0.3
@@ -1824,6 +1808,22 @@ Size: 51132
 MD5sum: a1845de812c265d6c0b35caebf75cc43
 SHA1: d402c34eb04872f289858fcb8b2f56e90741eeaf
 SHA256: f273e53b6aac22cb297a99d68abb6bbb389abe8ce87149b83c574b7266d52328
+Section: Tweaks
+Description: iOS 14-17 App跳转拦截重定向选择器。
+Author: iosdump
+Name: JumpSelect
+
+Package: com.iosdump.jumpselect
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.jumpselect_0.0.3_iphoneos-arm64e.deb
+Size: 49968
+MD5sum: 9794d74b10c76f3963a2274581ca0ee7
+SHA1: f2a97ed5349ff946afa9a6f703e524aa03349489
+SHA256: f3f93dc0cd5635119eb93c602f0326264847b9b9e4720dd7442fb5a7dd42d200
 Section: Tweaks
 Description: iOS 14-17 App跳转拦截重定向选择器。
 Author: iosdump
@@ -1911,22 +1911,6 @@ Name: JumpSelect
 
 Package: com.iosdump.jumpselect
 Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 476
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.jumpselect_1.0.0_iphoneos-arm64e.deb
-Size: 59718
-MD5sum: c0e780495b38580ad88658f234595c6a
-SHA1: 0b5cdc8acf864ac72af95fe4d035b9338e30d9b5
-SHA256: 3368ef16b19918c0787faf0ffc2384090890b98022df7fbe5bcaa82714d489eb
-Section: Tweaks
-Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
-Author: iosdump
-Name: JumpSelect
-
-Package: com.iosdump.jumpselect
-Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 476
@@ -1942,16 +1926,32 @@ Author: iosdump
 Name: JumpSelect
 
 Package: com.iosdump.jumpselect
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.jumpselect_1.0.0_iphoneos-arm64e.deb
+Size: 59718
+MD5sum: c0e780495b38580ad88658f234595c6a
+SHA1: 0b5cdc8acf864ac72af95fe4d035b9338e30d9b5
+SHA256: 3368ef16b19918c0787faf0ffc2384090890b98022df7fbe5bcaa82714d489eb
+Section: Tweaks
+Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Author: iosdump
+Name: JumpSelect
+
+Package: com.iosdump.jumpselect
 Version: 1.2
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: iosdump
 Installed-Size: 508
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.jumpselect_1.2_iphoneos-arm64.deb
-Size: 64092
-MD5sum: 22e901eab253fd34ffa54b8e2c54c3ce
-SHA1: 3397dd4b40bceebc07d77cb3c6ca0b0852030743
-SHA256: ab1a0fd817a40208a58b47ad9cfc011d0820f975ef0ac7e3fda93c7f36414a7b
+Filename: ./debs/com.iosdump.jumpselect_1.2_iphoneos-arm.deb
+Size: 64194
+MD5sum: 65f4a49a4926b1f283f8a8abc6068985
+SHA1: 741f6b5a2dbfa55a94f5bba4a3444430ea4fcdc7
+SHA256: d0069b6e734197d95fa64242c6b71b91df58a651dd7c338b1f2286a23e9495b7
 Section: Tweaks
 Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱，插件仅支持应用之间 URL Scheme / Universal Links 拦截跳转
 Author: iosdump
@@ -1975,19 +1975,35 @@ Name: JumpSelect
 
 Package: com.iosdump.jumpselect
 Version: 1.2
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 508
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.jumpselect_1.2_iphoneos-arm.deb
-Size: 64194
-MD5sum: 65f4a49a4926b1f283f8a8abc6068985
-SHA1: 741f6b5a2dbfa55a94f5bba4a3444430ea4fcdc7
-SHA256: d0069b6e734197d95fa64242c6b71b91df58a651dd7c338b1f2286a23e9495b7
+Filename: ./debs/com.iosdump.jumpselect_1.2_iphoneos-arm64.deb
+Size: 64092
+MD5sum: 22e901eab253fd34ffa54b8e2c54c3ce
+SHA1: 3397dd4b40bceebc07d77cb3c6ca0b0852030743
+SHA256: ab1a0fd817a40208a58b47ad9cfc011d0820f975ef0ac7e3fda93c7f36414a7b
 Section: Tweaks
 Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱，插件仅支持应用之间 URL Scheme / Universal Links 拦截跳转
 Author: iosdump
 Name: JumpSelect
+
+Package: com.iosdump.memorycontrol
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 676
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_0.0.2_iphoneos-arm64e.deb
+Size: 70678
+MD5sum: f0ca5959a1b5a4ae401fcabd9a689093
+SHA1: 7cce1500831e09fa4c3507cf2576152b3c700eb4
+SHA256: e2818f87cb406affc6276df09b9e0b852be9f4a3db76ecd995e7ef73b2eadf52
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
 
 Package: com.iosdump.memorycontrol
 Version: 0.0.2
@@ -2022,32 +2038,16 @@ Author: iosdump
 Name: MemoryControlX
 
 Package: com.iosdump.memorycontrol
-Version: 0.0.2
+Version: 0.2.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 676
+Installed-Size: 692
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.memorycontrol_0.0.2_iphoneos-arm64e.deb
-Size: 70678
-MD5sum: f0ca5959a1b5a4ae401fcabd9a689093
-SHA1: 7cce1500831e09fa4c3507cf2576152b3c700eb4
-SHA256: e2818f87cb406affc6276df09b9e0b852be9f4a3db76ecd995e7ef73b2eadf52
-Section: Tweaks
-Description: iOS 14-17 进程内存与优先级调整
-Author: iosdump
-Name: MemoryControlX
-
-Package: com.iosdump.memorycontrol
-Version: 0.2.1
-Architecture: iphoneos-arm
-Maintainer: iosdump
-Installed-Size: 708
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.memorycontrol_0.2.1_iphoneos-arm.deb
-Size: 77420
-MD5sum: caab7ed175cc43426f8f5614c5d79ee1
-SHA1: c0bac18dfc39ccbecfb1caac04dbf6846c757338
-SHA256: 75bf6a25483365d3af586f238c2dfd7dc76bcf9b1e99504220823363bcea564d
+Filename: ./debs/com.iosdump.memorycontrol_0.2.1_iphoneos-arm64e.deb
+Size: 75780
+MD5sum: b2cdb2bb8f743eb71ca863122cf00e34
+SHA1: 943ce452d99381d44bbc7a4da6779ee218b69803
+SHA256: 4b469f9de438aac1d56ce3f3fbf7a76dd74786661fbcea9386fd619d4c32cd79
 Section: Tweaks
 Description: iOS 14-17 进程内存与优先级调整
 Author: iosdump
@@ -2071,15 +2071,31 @@ Name: MemoryControlX
 
 Package: com.iosdump.memorycontrol
 Version: 0.2.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm
 Maintainer: iosdump
-Installed-Size: 692
+Installed-Size: 708
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.memorycontrol_0.2.1_iphoneos-arm64e.deb
-Size: 75780
-MD5sum: b2cdb2bb8f743eb71ca863122cf00e34
-SHA1: 943ce452d99381d44bbc7a4da6779ee218b69803
-SHA256: 4b469f9de438aac1d56ce3f3fbf7a76dd74786661fbcea9386fd619d4c32cd79
+Filename: ./debs/com.iosdump.memorycontrol_0.2.1_iphoneos-arm.deb
+Size: 77420
+MD5sum: caab7ed175cc43426f8f5614c5d79ee1
+SHA1: c0bac18dfc39ccbecfb1caac04dbf6846c757338
+SHA256: 75bf6a25483365d3af586f238c2dfd7dc76bcf9b1e99504220823363bcea564d
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
+Package: com.iosdump.memorycontrol
+Version: 0.8.8
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 708
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_0.8.8_iphoneos-arm.deb
+Size: 79376
+MD5sum: bd65003eeee1d6d2ebd39204f45b868d
+SHA1: 74135ebcc7d51f7af7c9115de23dd7a541ede65f
+SHA256: 5f677025374e165262392c23a612526de6825f85ab163cc41100366dee7615a5
 Section: Tweaks
 Description: iOS 14-17 进程内存与优先级调整
 Author: iosdump
@@ -2118,16 +2134,16 @@ Author: iosdump
 Name: MemoryControlX
 
 Package: com.iosdump.memorycontrol
-Version: 0.8.8
-Architecture: iphoneos-arm
+Version: 1.1
+Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 708
+Installed-Size: 748
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.memorycontrol_0.8.8_iphoneos-arm.deb
-Size: 79376
-MD5sum: bd65003eeee1d6d2ebd39204f45b868d
-SHA1: 74135ebcc7d51f7af7c9115de23dd7a541ede65f
-SHA256: 5f677025374e165262392c23a612526de6825f85ab163cc41100366dee7615a5
+Filename: ./debs/com.iosdump.memorycontrol_1.1_iphoneos-arm64.deb
+Size: 88898
+MD5sum: 8c498f73ce9224c9e25a41c4ab965bb4
+SHA1: 502360037655fe0e4300519217e9bf6e692dbda5
+SHA256: 7c3bd4aba3546aecfc30e03fbaea23f926d63137213bbc409fec5f6ab8aea97b
 Section: Tweaks
 Description: iOS 14-17 进程内存与优先级调整
 Author: iosdump
@@ -2151,22 +2167,6 @@ Name: MemoryControlX
 
 Package: com.iosdump.memorycontrol
 Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 748
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.memorycontrol_1.1_iphoneos-arm64.deb
-Size: 88898
-MD5sum: 8c498f73ce9224c9e25a41c4ab965bb4
-SHA1: 502360037655fe0e4300519217e9bf6e692dbda5
-SHA256: 7c3bd4aba3546aecfc30e03fbaea23f926d63137213bbc409fec5f6ab8aea97b
-Section: Tweaks
-Description: iOS 14-17 进程内存与优先级调整
-Author: iosdump
-Name: MemoryControlX
-
-Package: com.iosdump.memorycontrol
-Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: iosdump
 Installed-Size: 748
@@ -2176,22 +2176,6 @@ Size: 88038
 MD5sum: 0217ed9dc3f85bc79105fe2f699f642a
 SHA1: 557789fca6ce62654b166d846e149444d93dbebb
 SHA256: a88642d03bc0c8232e29fa115125f737f4d6f2d8023d5154e4b5e7bb09b0b245
-Section: Tweaks
-Description: iOS 14-17 进程内存与优先级调整
-Author: iosdump
-Name: MemoryControlX
-
-Package: com.iosdump.memorycontrol
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 780
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.memorycontrol_1.2_iphoneos-arm64.deb
-Size: 91920
-MD5sum: f7366ef2bf8a5234bf7da3aba18e8f72
-SHA1: 6e0d93cd9ff1f19e4a242761a9aa1c0277cc8f0d
-SHA256: fcf54419cb83fe1317e515861df868b123d28f211ea9e62c0b91ddb06aee9d99
 Section: Tweaks
 Description: iOS 14-17 进程内存与优先级调整
 Author: iosdump
@@ -2230,16 +2214,32 @@ Author: iosdump
 Name: MemoryControlX
 
 Package: com.iosdump.memorycontrol
-Version: 1.3
-Architecture: iphoneos-arm64e
+Version: 1.2
+Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 764
+Installed-Size: 780
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64e.deb
-Size: 90378
-MD5sum: 3ab1a52ff1aec2b32642d32097f120ec
-SHA1: 16fe4dcf00d0db90beb81fd77c5f254b3c2a5056
-SHA256: c3f4dc8efc4a5a7f789fcb69d35efb97c1cb51154f213881fc11328691acec65
+Filename: ./debs/com.iosdump.memorycontrol_1.2_iphoneos-arm64.deb
+Size: 91920
+MD5sum: f7366ef2bf8a5234bf7da3aba18e8f72
+SHA1: 6e0d93cd9ff1f19e4a242761a9aa1c0277cc8f0d
+SHA256: fcf54419cb83fe1317e515861df868b123d28f211ea9e62c0b91ddb06aee9d99
+Section: Tweaks
+Description: iOS 14-17 进程内存与优先级调整
+Author: iosdump
+Name: MemoryControlX
+
+Package: com.iosdump.memorycontrol
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 780
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64.deb
+Size: 91722
+MD5sum: 878546171bc837a525a725b2f7517a6e
+SHA1: f3aaaa2c42ba72249a295cbb9d5a154d5455f5a8
+SHA256: db8956dc922f5bd1b7eefdb7e30a7969daff9abb6a4780e6cb62ca9dd2f1ffd4
 Section: Tweaks
 Description: iOS 14-17 进程内存与优先级调整
 Author: iosdump
@@ -2263,19 +2263,35 @@ Name: MemoryControlX
 
 Package: com.iosdump.memorycontrol
 Version: 1.3
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 780
+Installed-Size: 764
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64.deb
-Size: 91722
-MD5sum: 878546171bc837a525a725b2f7517a6e
-SHA1: f3aaaa2c42ba72249a295cbb9d5a154d5455f5a8
-SHA256: db8956dc922f5bd1b7eefdb7e30a7969daff9abb6a4780e6cb62ca9dd2f1ffd4
+Filename: ./debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64e.deb
+Size: 90378
+MD5sum: 3ab1a52ff1aec2b32642d32097f120ec
+SHA1: 16fe4dcf00d0db90beb81fd77c5f254b3c2a5056
+SHA256: c3f4dc8efc4a5a7f789fcb69d35efb97c1cb51154f213881fc11328691acec65
 Section: Tweaks
 Description: iOS 14-17 进程内存与优先级调整
 Author: iosdump
 Name: MemoryControlX
+
+Package: com.iosdump.neofont
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 396
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.neofont_0.0.1_iphoneos-arm.deb
+Size: 34022
+MD5sum: 25b50095700f35d366b5273f58163c8c
+SHA1: 0a9ae2a9d542c4ce3ce4db6693e3422769370f43
+SHA256: ebcb54ea6aa7b5ff1143590f01a66758b80419d7fb436083ed40c8c49347bb4b
+Section: Tweaks
+Description: iOS 14-17+ 免挂载修改系统字体
+Author: iosdump
+Name: NeoFont
 
 Package: com.iosdump.neofont
 Version: 0.0.1
@@ -2309,21 +2325,21 @@ Description: iOS 14-17+ 免挂载修改系统字体
 Author: iosdump
 Name: NeoFont
 
-Package: com.iosdump.neofont
-Version: 0.0.1
-Architecture: iphoneos-arm
+Package: com.iosdump.screenrecordnostatusbar
+Version: 0.1
+Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 396
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.neofont_0.0.1_iphoneos-arm.deb
-Size: 34022
-MD5sum: 25b50095700f35d366b5273f58163c8c
-SHA1: 0a9ae2a9d542c4ce3ce4db6693e3422769370f43
-SHA256: ebcb54ea6aa7b5ff1143590f01a66758b80419d7fb436083ed40c8c49347bb4b
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.screenrecordnostatusbar_0.1_iphoneos-arm64e.deb
+Size: 5508
+MD5sum: ddd638cd6fd95662c0ad823344ee3ce0
+SHA1: bf12a3afc98b121f12c5fb26b919b937b05beb32
+SHA256: 77f481e8b5e9015a7b8ec0854fcc161ee09b8d74db6e531b28e073dc6dbdf92c
 Section: Tweaks
-Description: iOS 14-17+ 免挂载修改系统字体
+Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项（防止一些人盯着敏感的状态栏猜用户）。
 Author: iosdump
-Name: NeoFont
+Name: ScreenRecordNoStatusBar
 
 Package: com.iosdump.screenrecordnostatusbar
 Version: 0.1
@@ -2336,22 +2352,6 @@ Size: 5560
 MD5sum: 02eaa08dba482993fa9a16daee0fbf0f
 SHA1: 2d4b37e0bb7c5a13d31ec4055e061a250eb02677
 SHA256: 59bcb913e75066a5a650fe8fd2065bcf0b01f79ad0ad944f0e13515a9f67c66d
-Section: Tweaks
-Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项（防止一些人盯着敏感的状态栏猜用户）。
-Author: iosdump
-Name: ScreenRecordNoStatusBar
-
-Package: com.iosdump.screenrecordnostatusbar
-Version: 0.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/com.iosdump.screenrecordnostatusbar_0.1_iphoneos-arm64e.deb
-Size: 5508
-MD5sum: ddd638cd6fd95662c0ad823344ee3ce0
-SHA1: bf12a3afc98b121f12c5fb26b919b937b05beb32
-SHA256: 77f481e8b5e9015a7b8ec0854fcc161ee09b8d74db6e531b28e073dc6dbdf92c
 Section: Tweaks
 Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项（防止一些人盯着敏感的状态栏猜用户）。
 Author: iosdump
@@ -2372,22 +2372,6 @@ Section: Tweaks
 Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项（防止一些人盯着敏感的状态栏猜用户）。
 Author: iosdump
 Name: ScreenRecordNoStatusBar
-
-Package: com.iosdump.screenshotnostatusbar
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/com.iosdump.screenshotnostatusbar_0.1_iphoneos-arm64.deb
-Size: 5128
-MD5sum: 5592b6703a951f60fb730565f55f1f78
-SHA1: 19d50342d0ad2cce9ece5f5c7cf49d205862b97a
-SHA256: 93c48555ed6b2f21e2a0b4e4087fc073dfd2c710ac4a6ae320612abc38671969
-Section: Tweaks
-Description: iOS 14-17 截图时隐藏状态栏，无设置项（可防止一些人盯着敏感的状态栏猜用户）。
-Author: iosdump
-Name: ScreenshotNoStatusBar
 
 Package: com.iosdump.screenshotnostatusbar
 Version: 0.1
@@ -2421,6 +2405,22 @@ Description: iOS 14-17 截图时隐藏状态栏，无设置项（可防止一些
 Author: iosdump
 Name: ScreenshotNoStatusBar
 
+Package: com.iosdump.screenshotnostatusbar
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.screenshotnostatusbar_0.1_iphoneos-arm64.deb
+Size: 5128
+MD5sum: 5592b6703a951f60fb730565f55f1f78
+SHA1: 19d50342d0ad2cce9ece5f5c7cf49d205862b97a
+SHA256: 93c48555ed6b2f21e2a0b4e4087fc073dfd2c710ac4a6ae320612abc38671969
+Section: Tweaks
+Description: iOS 14-17 截图时隐藏状态栏，无设置项（可防止一些人盯着敏感的状态栏猜用户）。
+Author: iosdump
+Name: ScreenshotNoStatusBar
+
 Package: com.iosdump.shellx
 Version: 0.0.2
 Architecture: iphoneos-arm
@@ -2432,22 +2432,6 @@ Size: 72484
 MD5sum: 1bb57c2c1f6f57a4a5168d0f9e499d3a
 SHA1: 62d0bb55a72b8bd7e7e22e6c654350c4688eb1c3
 SHA256: d98fc3edc292c719e016e8b64fb7f7174d7276c2ff4f0d1ce5209adbe44558c1
-Section: Tweaks
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 576
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.shellx_0.0.2_iphoneos-arm64.deb
-Size: 72298
-MD5sum: 992c1eafa85a905292c5573203540595
-SHA1: cda43a920f5eb70da084b209d9a645906b25bbf6
-SHA256: a4125473b7dd4b598a962fb9985a29e9a6e81ebe87dcc2d0bdbd8e0ac35c0981
 Section: Tweaks
 Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
 Author: iosdump
@@ -2470,16 +2454,16 @@ Author: iosdump
 Name: SHELLX
 
 Package: com.iosdump.shellx
-Version: 0.0.3
-Architecture: iphoneos-arm64e
+Version: 0.0.2
+Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 576
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.shellx_0.0.3_iphoneos-arm64e.deb
-Size: 71910
-MD5sum: e07b70eb84a834b51290d19af7e1b8cc
-SHA1: 11a1ce8c1204bcb673b14604dd578613005bbc68
-SHA256: b8c4cde03c20755fa341ca81bc12474d721f5762ea6c993b869e67043b178ac9
+Filename: ./debs/com.iosdump.shellx_0.0.2_iphoneos-arm64.deb
+Size: 72298
+MD5sum: 992c1eafa85a905292c5573203540595
+SHA1: cda43a920f5eb70da084b209d9a645906b25bbf6
+SHA256: a4125473b7dd4b598a962fb9985a29e9a6e81ebe87dcc2d0bdbd8e0ac35c0981
 Section: Tweaks
 Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
 Author: iosdump
@@ -2503,6 +2487,22 @@ Name: SHELLX
 
 Package: com.iosdump.shellx
 Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_0.0.3_iphoneos-arm64e.deb
+Size: 71910
+MD5sum: e07b70eb84a834b51290d19af7e1b8cc
+SHA1: 11a1ce8c1204bcb673b14604dd578613005bbc68
+SHA256: b8c4cde03c20755fa341ca81bc12474d721f5762ea6c993b869e67043b178ac9
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 0.0.3
 Architecture: iphoneos-arm
 Maintainer: iosdump
 Installed-Size: 576
@@ -2512,22 +2512,6 @@ Size: 73708
 MD5sum: 2f47978caf1d5a39ad4d7df3b8e29365
 SHA1: 31891bec839837278b2bc105d53002293f0a518c
 SHA256: 6057610a43834ec2742b90fbd1a6ad401a7984af338df7b448e384e960a27306
-Section: Tweaks
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 0.0.5
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 608
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.shellx_0.0.5_iphoneos-arm64.deb
-Size: 81438
-MD5sum: 7898f7f99bf48fb7f576a40a6af41e2e
-SHA1: 0b4772f947ddc7d23780cea9130647dd49b8dc38
-SHA256: ec0fd70e642b326fa16fede65bfc8cbce3ec9b934ddf17fa47016b28b3eb76df
 Section: Tweaks
 Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
 Author: iosdump
@@ -2566,6 +2550,22 @@ Author: iosdump
 Name: SHELLX
 
 Package: com.iosdump.shellx
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 608
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_0.0.5_iphoneos-arm64.deb
+Size: 81438
+MD5sum: 7898f7f99bf48fb7f576a40a6af41e2e
+SHA1: 0b4772f947ddc7d23780cea9130647dd49b8dc38
+SHA256: ec0fd70e642b326fa16fede65bfc8cbce3ec9b934ddf17fa47016b28b3eb76df
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
 Version: 1.0.0
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
@@ -2576,6 +2576,22 @@ Size: 126828
 MD5sum: 63387223d12630b55d7cc16a568ba34a
 SHA1: b37b681c2a52169b24b83a92520e813015b3820b
 SHA256: 41dec083e2a72b98015f841f4d0b4dd88f73bcfcde3639127cd10eea1f1e8330
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 780
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.0.0_iphoneos-arm.deb
+Size: 127256
+MD5sum: bb1d473cd53d3e40b0726244c8e27b46
+SHA1: 5c8c83914204c1c9cb99e6347f206ae077ddbe01
+SHA256: dab21962c0d3a91705e6b564522883bb89c942bc16105db63d300346ce382cfe
 Section: Tweaks
 Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
 Author: iosdump
@@ -2598,16 +2614,16 @@ Author: iosdump
 Name: SHELLX
 
 Package: com.iosdump.shellx
-Version: 1.0.0
-Architecture: iphoneos-arm
+Version: 1.1.0
+Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 780
+Installed-Size: 812
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.shellx_1.0.0_iphoneos-arm.deb
-Size: 127256
-MD5sum: bb1d473cd53d3e40b0726244c8e27b46
-SHA1: 5c8c83914204c1c9cb99e6347f206ae077ddbe01
-SHA256: dab21962c0d3a91705e6b564522883bb89c942bc16105db63d300346ce382cfe
+Filename: ./debs/com.iosdump.shellx_1.1.0_iphoneos-arm64.deb
+Size: 136686
+MD5sum: 09290b1e43a6c642565352f1813febba
+SHA1: 7128af2419c7e54b56a5de6ae874765f67d1f555
+SHA256: f4279c6d0b2c5283ddb6aeae8ba074ece5d7a8bcb2f4e6f35b602537d5b9ba70
 Section: Tweaks
 Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
 Author: iosdump
@@ -2646,38 +2662,6 @@ Author: iosdump
 Name: SHELLX
 
 Package: com.iosdump.shellx
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 812
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.shellx_1.1.0_iphoneos-arm64.deb
-Size: 136686
-MD5sum: 09290b1e43a6c642565352f1813febba
-SHA1: 7128af2419c7e54b56a5de6ae874765f67d1f555
-SHA256: f4279c6d0b2c5283ddb6aeae8ba074ece5d7a8bcb2f4e6f35b602537d5b9ba70
-Section: Tweaks
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 1.2.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 836
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.shellx_1.2.0_iphoneos-arm64e.deb
-Size: 140488
-MD5sum: 8a322bc60f89a3f33811177a46152908
-SHA1: 2fd37c6fcad5db3e6270c153581ecca1e5a8c39b
-SHA256: b110c2138263f8285a9ff80cab89320f14ae95b50a56d92097453189d179a21b
-Section: Tweaks
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
 Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: iosdump
@@ -2704,6 +2688,38 @@ Size: 142364
 MD5sum: be794caaac90a3d79446b1c9865a2390
 SHA1: bd39d0a866f1347e7f82e502a9a2425145341253
 SHA256: 8b15075524e1ce7a2d01ecd28751c03e5b376dc34182e168d8ea662de98845e4
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 836
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.2.0_iphoneos-arm64e.deb
+Size: 140488
+MD5sum: 8a322bc60f89a3f33811177a46152908
+SHA1: 2fd37c6fcad5db3e6270c153581ecca1e5a8c39b
+SHA256: b110c2138263f8285a9ff80cab89320f14ae95b50a56d92097453189d179a21b
+Section: Tweaks
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 852
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_1.2.1_iphoneos-arm64e.deb
+Size: 144108
+MD5sum: ec39646ee902cf8597382dd66b40132b
+SHA1: 2c2481099fedc079555054fc0b151e71a9ede103
+SHA256: 76bd1022a9ace73c1ab8257b1032b9f956437424885c324c0861a3b3c9936a4a
 Section: Tweaks
 Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
 Author: iosdump
@@ -2742,32 +2758,64 @@ Author: iosdump
 Name: SHELLX
 
 Package: com.iosdump.shellx
-Version: 1.2.1
+Version: 2.0.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 852
+Installed-Size: 2328
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.shellx_1.2.1_iphoneos-arm64e.deb
-Size: 144108
-MD5sum: ec39646ee902cf8597382dd66b40132b
-SHA1: 2c2481099fedc079555054fc0b151e71a9ede103
-SHA256: 76bd1022a9ace73c1ab8257b1032b9f956437424885c324c0861a3b3c9936a4a
+Filename: ./debs/com.iosdump.shellx_2.0.1_iphoneos-arm64e.deb
+Size: 777320
+MD5sum: 1af881ede9bad5ed7575e62bbbf69dee
+SHA1: f2e54beb179f6ffd0a26011bd8cdc6623c82a038
+SHA256: 4b04020b87890bf22b80d38c3bf0c72be83b851a798f33cb75082255f1cc5391
 Section: Tweaks
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 2348
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_2.0.1_iphoneos-arm64.deb
+Size: 779820
+MD5sum: a870d8d8743ecee207f81eec6388e4a5
+SHA1: 70969a453404f3ab5a1e661416379a0e7dd5a7ca
+SHA256: 19f80bce31ac7dcc0a0f68a7ae56bb1c5f241c20d160eaa8efa1a05c940f7a9a
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 2364
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_2.0.1_iphoneos-arm.deb
+Size: 780354
+MD5sum: 79376f1444601ce68959b7135d74bb94
+SHA1: 31b8ac3f5354fccf9c1391169cdebc2b4074c87a
+SHA256: 442caf0fd0143fe685d6fb2612ae94672afb6d95cfe8cc66fce50bf0dedbf94b
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
 Author: iosdump
 Name: SHELLX
 
 Package: com.iosdump.trollcmtweak
 Version: 1.1.4
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: iosdump
 Installed-Size: 444
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.trollcmtweak_1.1.4_iphoneos-arm64.deb
-Size: 53572
-MD5sum: 7caf20be007f98251ea3d224f7a50f3e
-SHA1: 3fa7c15942fd77dec064b6129ed51307a011c4ea
-SHA256: ece1c17efefdd1dd8443079bfa9a9fa704f49f31585a6836bf22d4fdb816e9bb
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.4_iphoneos-arm.deb
+Size: 53546
+MD5sum: 2635e96efeee49c92306e70c03f4cb7c
+SHA1: 9cf9f73a14fc271e2e0ec2e748972f492d8a8b0a
+SHA256: 31c98862c932b9197321b408d60ebc8bf1507f48157f88fdafddfd6a04b64e80
 Section: Tweaks
 Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Author: iosdump
@@ -2791,15 +2839,15 @@ Name: TrollCM
 
 Package: com.iosdump.trollcmtweak
 Version: 1.1.4
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 444
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.trollcmtweak_1.1.4_iphoneos-arm.deb
-Size: 53546
-MD5sum: 2635e96efeee49c92306e70c03f4cb7c
-SHA1: 9cf9f73a14fc271e2e0ec2e748972f492d8a8b0a
-SHA256: 31c98862c932b9197321b408d60ebc8bf1507f48157f88fdafddfd6a04b64e80
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.4_iphoneos-arm64.deb
+Size: 53572
+MD5sum: 7caf20be007f98251ea3d224f7a50f3e
+SHA1: 3fa7c15942fd77dec064b6129ed51307a011c4ea
+SHA256: ece1c17efefdd1dd8443079bfa9a9fa704f49f31585a6836bf22d4fdb816e9bb
 Section: Tweaks
 Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Author: iosdump
@@ -2823,22 +2871,6 @@ Name: TrollCM
 
 Package: com.iosdump.trollcmtweak
 Version: 1.1.5
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 444
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.trollcmtweak_1.1.5_iphoneos-arm64e.deb
-Size: 55742
-MD5sum: 039a3f4ddbb92ce113e2af8e6cf1303a
-SHA1: 9e49482854b980082fbec13f02b63a05214fb8aa
-SHA256: c19e2a3db920feaec08f8a859a8f1f3d950d509e302120026ac43a80cd2dc1c3
-Section: Tweaks
-Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
-Author: iosdump
-Name: TrollCM
-
-Package: com.iosdump.trollcmtweak
-Version: 1.1.5
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 444
@@ -2854,16 +2886,16 @@ Author: iosdump
 Name: TrollCM
 
 Package: com.iosdump.trollcmtweak
-Version: 1.1.6
+Version: 1.1.5
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Installed-Size: 444
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.trollcmtweak_1.1.6_iphoneos-arm64e.deb
-Size: 55908
-MD5sum: 4c073b3c961e3ade5d1fa4ddc8191925
-SHA1: dab4414b1508b622443e8aac49bbb384be99360e
-SHA256: 9b15aed3c7b93bb413c02229f00a2d4021652e5117312a461948eda173078da2
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.5_iphoneos-arm64e.deb
+Size: 55742
+MD5sum: 039a3f4ddbb92ce113e2af8e6cf1303a
+SHA1: 9e49482854b980082fbec13f02b63a05214fb8aa
+SHA256: c19e2a3db920feaec08f8a859a8f1f3d950d509e302120026ac43a80cd2dc1c3
 Section: Tweaks
 Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Author: iosdump
@@ -2887,6 +2919,22 @@ Name: TrollCM
 
 Package: com.iosdump.trollcmtweak
 Version: 1.1.6
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.6_iphoneos-arm64e.deb
+Size: 55908
+MD5sum: 4c073b3c961e3ade5d1fa4ddc8191925
+SHA1: dab4414b1508b622443e8aac49bbb384be99360e
+SHA256: 9b15aed3c7b93bb413c02229f00a2d4021652e5117312a461948eda173078da2
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Author: iosdump
+Name: TrollCM
+
+Package: com.iosdump.trollcmtweak
+Version: 1.1.6
 Architecture: iphoneos-arm
 Maintainer: iosdump
 Installed-Size: 444
@@ -2896,22 +2944,6 @@ Size: 56074
 MD5sum: 9ca5ef3d8d183cd90649500354f36210
 SHA1: 1b45fd88866a47748d71634ee5010e66153a41ba
 SHA256: 0347330d488bd52c0b1e9c647e2acb5ff5731ad318b87379228273d7085eec3e
-Section: Tweaks
-Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
-Author: iosdump
-Name: TrollCM
-
-Package: com.iosdump.trollcmtweak
-Version: 1.1.7
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 476
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.trollcmtweak_1.1.7_iphoneos-arm64e.deb
-Size: 56574
-MD5sum: 07620fdb901bfc7f995ec575692e9daa
-SHA1: 856ef31ba417571ae175cffa2d90b747da058a79
-SHA256: 8d43fbedb8d88122dcc38b6c0576e468ed17bfaca7d00a676535acb8aef24742
 Section: Tweaks
 Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Author: iosdump
@@ -2949,6 +2981,22 @@ Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Author: iosdump
 Name: TrollCM
 
+Package: com.iosdump.trollcmtweak
+Version: 1.1.7
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.7_iphoneos-arm64e.deb
+Size: 56574
+MD5sum: 07620fdb901bfc7f995ec575692e9daa
+SHA1: 856ef31ba417571ae175cffa2d90b747da058a79
+SHA256: 8d43fbedb8d88122dcc38b6c0576e468ed17bfaca7d00a676535acb8aef24742
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Author: iosdump
+Name: TrollCM
+
 Package: com.iosdump.zone
 Version: 0.0.8
 Architecture: iphoneos-arm64e
@@ -2967,22 +3015,6 @@ Name: Zone
 
 Package: com.iosdump.zone
 Version: 0.0.8
-Architecture: iphoneos-arm
-Maintainer: iosdump
-Installed-Size: 664
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.zone_0.0.8_iphoneos-arm.deb
-Size: 129766
-MD5sum: 958193c3bc4b87f9de5c6e865822c944
-SHA1: d75ebb06b3c23d33439164d616e168534ba434e7
-SHA256: a1759b2feb9dea11dd072e4c4766ac30782cda34a252277cd7056a03bc7d836c
-Section: Tweaks
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Author: iosdump
-Name: Zone
-
-Package: com.iosdump.zone
-Version: 0.0.8
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 664
@@ -2992,6 +3024,22 @@ Size: 129782
 MD5sum: e2c15180f0f0ecd27a8ac01a67d700af
 SHA1: 10e103cbccead6a9c0a0693584c59ef111f8d100
 SHA256: e185d85a6919e6a2efdc7cfd300204a1420bfc5819d8b50ddee4e05629e5459d
+Section: Tweaks
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Author: iosdump
+Name: Zone
+
+Package: com.iosdump.zone
+Version: 0.0.8
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 664
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.zone_0.0.8_iphoneos-arm.deb
+Size: 129766
+MD5sum: 958193c3bc4b87f9de5c6e865822c944
+SHA1: d75ebb06b3c23d33439164d616e168534ba434e7
+SHA256: a1759b2feb9dea11dd072e4c4766ac30782cda34a252277cd7056a03bc7d836c
 Section: Tweaks
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Author: iosdump
@@ -3015,22 +3063,6 @@ Name: Zone
 
 Package: com.iosdump.zone
 Version: 0.0.9
-Architecture: iphoneos-arm
-Maintainer: iosdump
-Installed-Size: 672
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.zone_0.0.9_iphoneos-arm.deb
-Size: 135450
-MD5sum: 8d97f489f1e16e06ad2daf40c2de6882
-SHA1: b10e46e7a5d0d017160267adb1ecd0aa771f96b2
-SHA256: e40f8878fa4886f962db4ac7ce23b73d483c1b1550d508d8a16d7ffe29ecc037
-Section: Tweaks
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Author: iosdump
-Name: Zone
-
-Package: com.iosdump.zone
-Version: 0.0.9
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Installed-Size: 668
@@ -3040,6 +3072,22 @@ Size: 134454
 MD5sum: 308962ef8b5f6a3306a341c6d7c15cdf
 SHA1: ccf826011e119fe6351827ecb924a434dcd7217e
 SHA256: dae8a47919a390c198cf315feaffeec5bdb030e47c7465d9ed99ac0e87d39a88
+Section: Tweaks
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Author: iosdump
+Name: Zone
+
+Package: com.iosdump.zone
+Version: 0.0.9
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 672
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.zone_0.0.9_iphoneos-arm.deb
+Size: 135450
+MD5sum: 8d97f489f1e16e06ad2daf40c2de6882
+SHA1: b10e46e7a5d0d017160267adb1ecd0aa771f96b2
+SHA256: e40f8878fa4886f962db4ac7ce23b73d483c1b1550d508d8a16d7ffe29ecc037
 Section: Tweaks
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Author: iosdump
@@ -3063,22 +3111,6 @@ Name: Zone
 
 Package: com.iosdump.zone
 Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 932
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Filename: ./debs/com.iosdump.zone_1.0.1_iphoneos-arm64.deb
-Size: 153564
-MD5sum: 4df6e3c26c010e20b543667024dc9f74
-SHA1: 8079fbf05e32a15fd82ec0697514bae74e983298
-SHA256: 4b2af141184d5d3db913831282c653bed5c7b36284cbbe4712d6aaea04aa10c5
-Section: Tweaks
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Author: iosdump
-Name: Zone
-
-Package: com.iosdump.zone
-Version: 1.0.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Installed-Size: 912
@@ -3088,6 +3120,22 @@ Size: 153056
 MD5sum: caff9c5ba0b4a1e23cbd8f8eb8fdbbbc
 SHA1: 3de43120349c7d13007b279fa5817717e1565695
 SHA256: 1faef345fc582c2b84f1d9e911d66b3073cafeb05b565917cb3794684a567114
+Section: Tweaks
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Author: iosdump
+Name: Zone
+
+Package: com.iosdump.zone
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 932
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.iosdump.zone_1.0.1_iphoneos-arm64.deb
+Size: 153564
+MD5sum: 4df6e3c26c010e20b543667024dc9f74
+SHA1: 8079fbf05e32a15fd82ec0697514bae74e983298
+SHA256: 4b2af141184d5d3db913831282c653bed5c7b36284cbbe4712d6aaea04aa10c5
 Section: Tweaks
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Author: iosdump
@@ -3111,22 +3159,6 @@ Name: Zone
 
 Package: com.iosdump.zone
 Version: 1.1.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 980
-Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
-Filename: ./debs/com.iosdump.zone_1.1.0_iphoneos-arm64e.deb
-Size: 167718
-MD5sum: 7b10b912db9f774a347f36fd03853a46
-SHA1: 8de6faca25a9038341edea4b090b4f73a94b7f9a
-SHA256: 4e0e968486c8f631971bd636df162f579078ab3683d15a84c965f164a66437eb
-Section: Tweaks
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Author: iosdump
-Name: Zone
-
-Package: com.iosdump.zone
-Version: 1.1.0
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 984
@@ -3136,6 +3168,22 @@ Size: 168588
 MD5sum: 54c5b9e4ac9c21d9d95cbff1fe8435b5
 SHA1: 44ad74f2a82786d0a29a99f8307ed6f6a9233eae
 SHA256: f21c95a24998241366667d196bfab7cd4bc9f04bd9f33db5ff47f8f89d4204b5
+Section: Tweaks
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Author: iosdump
+Name: Zone
+
+Package: com.iosdump.zone
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 980
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: ./debs/com.iosdump.zone_1.1.0_iphoneos-arm64e.deb
+Size: 167718
+MD5sum: 7b10b912db9f774a347f36fd03853a46
+SHA1: 8de6faca25a9038341edea4b090b4f73a94b7f9a
+SHA256: 4e0e968486c8f631971bd636df162f579078ab3683d15a84c965f164a66437eb
 Section: Tweaks
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Author: iosdump
@@ -3159,6 +3207,22 @@ Name: Zone
 
 Package: com.iosdump.zone
 Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 984
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: ./debs/com.iosdump.zone_1.3.0_iphoneos-arm64.deb
+Size: 169006
+MD5sum: ecf5c5d0934064dc2a77946de2ff9773
+SHA1: abd1c3b6227a41c3ebf4ccd6f1556d8abec52a0a
+SHA256: e8f1e361377849a9de0af74a5dad6531c01b6c8ba0f8754ca81761545e81bb93
+Section: Tweaks
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Author: iosdump
+Name: Zone
+
+Package: com.iosdump.zone
+Version: 1.3.0
 Architecture: iphoneos-arm
 Maintainer: iosdump
 Installed-Size: 984
@@ -3174,16 +3238,16 @@ Author: iosdump
 Name: Zone
 
 Package: com.iosdump.zone
-Version: 1.3.0
-Architecture: iphoneos-arm64
+Version: 2.0.0
+Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 984
+Installed-Size: 1144
 Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
-Filename: ./debs/com.iosdump.zone_1.3.0_iphoneos-arm64.deb
-Size: 169006
-MD5sum: ecf5c5d0934064dc2a77946de2ff9773
-SHA1: abd1c3b6227a41c3ebf4ccd6f1556d8abec52a0a
-SHA256: e8f1e361377849a9de0af74a5dad6531c01b6c8ba0f8754ca81761545e81bb93
+Filename: ./debs/com.iosdump.zone_2.0.0_iphoneos-arm64e.deb
+Size: 206022
+MD5sum: 25a7523ede8066dfb3a933faf88b1261
+SHA1: 54f65875274b9d24b4c1dff2d406ea2154d8be0c
+SHA256: 4d138dee32ff1ddc0052c01d159db01391f52de9aca480ebfaabcf8393fadbe4
 Section: Tweaks
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Author: iosdump
@@ -3222,32 +3286,16 @@ Author: iosdump
 Name: Zone
 
 Package: com.iosdump.zone
-Version: 2.0.0
+Version: 2.1.0
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 1144
+Installed-Size: 1160
 Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
-Filename: ./debs/com.iosdump.zone_2.0.0_iphoneos-arm64e.deb
-Size: 206022
-MD5sum: 25a7523ede8066dfb3a933faf88b1261
-SHA1: 54f65875274b9d24b4c1dff2d406ea2154d8be0c
-SHA256: 4d138dee32ff1ddc0052c01d159db01391f52de9aca480ebfaabcf8393fadbe4
-Section: Tweaks
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Author: iosdump
-Name: Zone
-
-Package: com.iosdump.zone
-Version: 2.1.0
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 1164
-Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
-Filename: ./debs/com.iosdump.zone_2.1.0_iphoneos-arm64.deb
-Size: 210892
-MD5sum: 2aca1f5da7d0a2683f7aeef8a6eef85c
-SHA1: f387eec2fe6121cfcd3183542523ee5e6a56d4c0
-SHA256: 7b35aa49d09be6361ed5db8b064e7178a7a1ca2d2f273ee2a6d54f833d441cca
+Filename: ./debs/com.iosdump.zone_2.1.0_iphoneos-arm64e.deb
+Size: 208714
+MD5sum: ef8cc2f3daaef415363ecb13cace1914
+SHA1: 400cc7b2de8dc9cb32ef5f3316be66fbd5142e11
+SHA256: 302f45ef43a09aadf0fb14ea055dbfd8008908c5d8bc7692e4df2cd39765cc5d
 Section: Tweaks
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Author: iosdump
@@ -3271,19 +3319,35 @@ Name: Zone
 
 Package: com.iosdump.zone
 Version: 2.1.0
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 1160
+Installed-Size: 1164
 Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
-Filename: ./debs/com.iosdump.zone_2.1.0_iphoneos-arm64e.deb
-Size: 208714
-MD5sum: ef8cc2f3daaef415363ecb13cace1914
-SHA1: 400cc7b2de8dc9cb32ef5f3316be66fbd5142e11
-SHA256: 302f45ef43a09aadf0fb14ea055dbfd8008908c5d8bc7692e4df2cd39765cc5d
+Filename: ./debs/com.iosdump.zone_2.1.0_iphoneos-arm64.deb
+Size: 210892
+MD5sum: 2aca1f5da7d0a2683f7aeef8a6eef85c
+SHA1: f387eec2fe6121cfcd3183542523ee5e6a56d4c0
+SHA256: 7b35aa49d09be6361ed5db8b064e7178a7a1ca2d2f273ee2a6d54f833d441cca
 Section: Tweaks
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Author: iosdump
 Name: Zone
+
+Package: com.subdiox.storeswitcher2
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 216
+Depends: firmware (>= 11), mobilesubstrate
+Filename: ./debs/com.subdiox.storeswitcher2_1.0.1_iphoneos-arm64.deb
+Size: 22860
+MD5sum: c1c74bcdb70a422b7ded0d1c26f25459
+SHA1: 7b02f5c0331389bebd440d2996684ae90d8f80a8
+SHA256: 3a07ed55194913121f5bb0ff27703d9fa86e06972b3f012ea8e813104a6eace6
+Section: Tweaks
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: subdiox
+Name: StoreSwitcher 2
 
 Package: com.subdiox.storeswitcher2
 Version: 1.0.1
@@ -3313,22 +3377,6 @@ Size: 22866
 MD5sum: e7241586827de4795cc7ec36175b9c5e
 SHA1: 4333ef162044a9c138dd5962ad38039df74d8451
 SHA256: cdcf86736f4b851ef78efb5aa7cc2814a56e0db5f1c038a2499cb6b8446e2737
-Section: Tweaks
-Description: Adds a button to switch account in App Store account page on iOS 11+.
-Author: subdiox
-Name: StoreSwitcher 2
-
-Package: com.subdiox.storeswitcher2
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 216
-Depends: firmware (>= 11), mobilesubstrate
-Filename: ./debs/com.subdiox.storeswitcher2_1.0.1_iphoneos-arm64.deb
-Size: 22860
-MD5sum: c1c74bcdb70a422b7ded0d1c26f25459
-SHA1: 7b02f5c0331389bebd440d2996684ae90d8f80a8
-SHA256: 3a07ed55194913121f5bb0ff27703d9fa86e06972b3f012ea8e813104a6eace6
 Section: Tweaks
 Description: Adds a button to switch account in App Store account page on iOS 11+.
 Author: subdiox
