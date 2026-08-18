@@ -2806,6 +2806,54 @@ Author: iosdump
 Name: SHELLX
 
 Package: com.iosdump.shellx
+Version: 2.0.10
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 2592
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_2.0.10_iphoneos-arm64.deb
+Size: 830020
+MD5sum: 49e3168110f832d6cea7b32b8349e907
+SHA1: 9757b7408b5f9d6d7a39f5950832fec598c891a0
+SHA256: 032dc3a42fac822173b88d3015003457304bd7e961958ff915ed4a739948cdbf
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 2.0.10
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 2560
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_2.0.10_iphoneos-arm64e.deb
+Size: 828730
+MD5sum: 7a3d89454fbabf5f2567485d413afb73
+SHA1: 92bea1281a62fe85a4530027d953abf218ce58dd
+SHA256: 47169c185c036eda01cde9624cb1123afd38085e15ed8077033cec9b64155936
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 2.0.10
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 2592
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.shellx_2.0.10_iphoneos-arm.deb
+Size: 830756
+MD5sum: d4718c681ffaf2ae48c94f271a967eb8
+SHA1: 2aedbe89f4311ef5a25e08f7f4c7a43cbebd34aa
+SHA256: 1c35fc00d4cc2a269596de43d6b4d9fe6f8828b2af3ae2b2d025ae2fe846be2a
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
 Version: 2.0.9
 Architecture: iphoneos-arm
 Maintainer: iosdump
