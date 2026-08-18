@@ -3045,6 +3045,54 @@ Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Author: iosdump
 Name: TrollCM
 
+Package: com.iosdump.trollcmtweak
+Version: 1.1.8
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.8_iphoneos-arm.deb
+Size: 56678
+MD5sum: 7b7cc3d1c700cb4a8dce3abe7f9ef2e6
+SHA1: 062862217f22d5b0071789b85da2bc0b551ee5c9
+SHA256: 572726e94c58fb8e6aa632ef78f8076226fb2f592e99e303f11e9756334b17ec
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Author: iosdump
+Name: TrollCM
+
+Package: com.iosdump.trollcmtweak
+Version: 1.1.8
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.8_iphoneos-arm64.deb
+Size: 56770
+MD5sum: 78c96438456d6db7e73f27bec41aeb98
+SHA1: 11e326807f65b6d45375a96788ce7b73b36ac998
+SHA256: a1aedb67dfcceef3dec0722fa2b92cbc613a283036ebc38e44a8b4e093c8fcf7
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Author: iosdump
+Name: TrollCM
+
+Package: com.iosdump.trollcmtweak
+Version: 1.1.8
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.iosdump.trollcmtweak_1.1.8_iphoneos-arm64e.deb
+Size: 56602
+MD5sum: 9f68cfad57f38150cc80bb59aa77a761
+SHA1: 9ad6d2812031ff005eba167e66c8e913f8de86b7
+SHA256: 444dbfca89caed3817fae04a36fb1c4dbec5bafa5753218e61d37dc161aea063
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Author: iosdump
+Name: TrollCM
+
 Package: com.iosdump.zone
 Version: 0.0.8
 Architecture: iphoneos-arm64e
