@@ -2901,6 +2901,57 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图等
 Author: iosdump
 Name: SHELLX
 
+Package: com.iosdump.shellx
+Version: 2.1.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 2788
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/com.iosdump.shellx_2.1.1_iphoneos-arm64e.deb
+Size: 885052
+MD5sum: ecc3bcc0a60b3e5eccb69efcada0376a
+SHA1: 2147884f62e519525703d15ff30e8bcdfadfe2dc
+SHA256: 19205c5f99a34d053ff86ae0c471b6eff451168d646c102f716f9750ffdf8dcc
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 2788
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/com.iosdump.shellx_2.1.1_iphoneos-arm.deb
+Size: 888092
+MD5sum: cccbcaf0d89ad16b9e240d9ba40c1e4e
+SHA1: 1ad00229c9eca70c8fd14cacd34bb34a0ea17bf7
+SHA256: 6aafa91e6bb8d95cb51f85003cc77fcdc2cf3524050cc871c6091be39d929a68
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 2788
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/com.iosdump.shellx_2.1.1_iphoneos-arm64.deb
+Size: 887402
+MD5sum: d8248c3c2e5459b88bd6de7c0c39bc3a
+SHA1: 6b3d6d3056b7f1856d7fc43cbfc2332ddf53d212
+SHA256: 75ba0a55f3422b10d72911e4e1b057239c2333dbce4a9d21f99a6aef24a58768
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
 Package: com.iosdump.trollcmtweak
 Version: 1.1.4
 Architecture: iphoneos-arm
