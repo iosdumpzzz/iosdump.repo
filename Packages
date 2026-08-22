@@ -3003,6 +3003,57 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图等
 Author: iosdump
 Name: SHELLX
 
+Package: com.iosdump.shellx
+Version: 2.3.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 6492
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/com.iosdump.shellx_2.3.1_iphoneos-arm64.deb
+Size: 2839578
+MD5sum: 72e454ad9102e88cf272df8cf0cff0df
+SHA1: 97b4591654982e5d62270efb2cea6a4c32867833
+SHA256: 80b70cff135a1f380afaa83ec11e9c31cd7a8b50baca6fb48ffa17040cea667e
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 2.3.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 6492
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/com.iosdump.shellx_2.3.1_iphoneos-arm.deb
+Size: 2842416
+MD5sum: 4c32ff1155df0fee9295b4a2b23cc90e
+SHA1: 01b0a59f6db738d35a4c4fb7313b245dd1453acc
+SHA256: f806dedea1ce76933df007c9e45b2f3e43fdb014f2a905b77d7d272beef5e06e
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 2.3.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 6476
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/com.iosdump.shellx_2.3.1_iphoneos-arm64e.deb
+Size: 2839618
+MD5sum: 1f820190020eb6e156ab9f711996abb5
+SHA1: 22df9c02032afb9ffe957e2ed1f253091f734df8
+SHA256: 46ee99395ba18a10daa21dd40a99ed612038b7fe813b4352ebfc34c73a044c14
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
 Package: com.iosdump.trollcmtweak
 Version: 1.1.4
 Architecture: iphoneos-arm
