@@ -3519,14 +3519,14 @@ Package: com.iosdump.shellx
 Version: 2.9.0
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 11796
+Installed-Size: 10984
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
 Filename: ./debs/com.iosdump.shellx_2.9.0_iphoneos-arm64.deb
-Size: 3791886
-MD5sum: e203e12529f08f9921f3cc8074a2203f
-SHA1: 801e33d96aaf62a9b00c98be1b2ff5ff9a944f3e
-SHA256: ed24abcf127fd7a113e831b0878ef8353607505e853a427646ed8885907880dc
+Size: 3685988
+MD5sum: 5083ab4b71a5fd6a436c31d8df9bb5df
+SHA1: e4b11a45fa062a4b900b80099e7e8e5a64db8236
+SHA256: 5529fb7f40670a63d0631ea457cd93ab47ea6be854dc196011cb508bd52f8079
 Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
 Author: iosdump
@@ -3536,14 +3536,14 @@ Package: com.iosdump.shellx
 Version: 2.9.0
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 11780
+Installed-Size: 10984
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
 Filename: ./debs/com.iosdump.shellx_2.9.0_iphoneos-arm64e.deb
-Size: 3793374
-MD5sum: 2a071a7e2fdc147c44fa5f66585e1ac5
-SHA1: 9c4e8fac649f42e38cd96527b718124c3dc80642
-SHA256: d5c505d245f6164f7ec5fd1d6f3efc3e5efc1f6092d838be77df7dd1f2b145c2
+Size: 3691676
+MD5sum: 8aad54bf534670ccde67e238565d566e
+SHA1: 79f85fad9c4e0e471ba2304637b64f3bc8436b52
+SHA256: 6ee858fe77a6777ed5660e65f935c99445a1139a1f74e0c821b935cae7d26cfc
 Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
 Author: iosdump
@@ -3553,14 +3553,14 @@ Package: com.iosdump.shellx
 Version: 2.9.0
 Architecture: iphoneos-arm
 Maintainer: iosdump
-Installed-Size: 11796
+Installed-Size: 10984
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
 Filename: ./debs/com.iosdump.shellx_2.9.0_iphoneos-arm.deb
-Size: 3793782
-MD5sum: f74756f191454dd8b5689df19b107658
-SHA1: 5daadc20abf1625baaf54292cc68950026febe9e
-SHA256: e83802d369c5a8b8e3f519c232872545f6f604c09587b713d87e760e4d9d3741
+Size: 3689914
+MD5sum: 53c37bd2d4d7c06926e01b8ae148938d
+SHA1: 1aa1adcb9ee91d76708608351f9fcd9584abf7ba
+SHA256: 3222b78aa4839fda87fa446dda67faa551400e9f8ac6784dc62e43ba7391ef56
 Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
 Author: iosdump
