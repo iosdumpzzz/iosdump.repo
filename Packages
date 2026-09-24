@@ -1347,6 +1347,58 @@ Author: iosdump
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 
+Package: com.iosdump.appdata
+Version: 2.7.5
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.7.5_iphoneos-arm.deb
+Size: 2093502
+MD5sum: 0198d153b26f9e09017c675fa2420b27
+SHA1: f1753970510fb2bc2c7cc0fcd068850c466d163b
+SHA256: 687452ede211d00cb914bb2d502d7746767286ab01a1ec40829d76f27f92c2a8
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.7.5
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.7.5_iphoneos-arm64.deb
+Size: 2093766
+MD5sum: 576344a3f94d6650342d042c8bf6c584
+SHA1: 811233fdf24dc89771b648eb82d5309c221e6904
+SHA256: d9313782b70d28a01911e924d44d2d7995f8e04015543d6b6cc78c6d1af5053b
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
+Package: com.iosdump.appdata
+Version: 2.7.5
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: ./debs/com.iosdump.appdata_2.7.5_iphoneos-arm64e.deb
+Size: 3950972
+MD5sum: 40ddc81b1b68b6986a140249a548e1a3
+SHA1: 09309a4237d83460527eb8a34bcf08a48044fe9c
+SHA256: 422c963b9ed8535459b0b3c49b44a9e0708e6e3eb0007e76c361ef79364c6b0a
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+
 Package: com.iosdump.appmute
 Version: 0.0.1
 Architecture: iphoneos-arm64
