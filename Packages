@@ -2629,6 +2629,63 @@ Description: iOS 14-17 截图时隐藏状态栏，无设置项（可防止一些
 Author: iosdump
 Name: ScreenshotNoStatusBar
 
+Package: com.iosdump.sfsymbolreplacer
+Version: 1.0.9
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 848
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: com.zxms.sfsymbolreplacer
+Replaces: com.zxms.sfsymbolreplacer
+Provides: com.zxms.sfsymbolreplacer
+Filename: ./debs/com.iosdump.sfsymbolreplacer_1.0.9_iphoneos-arm.deb
+Size: 112068
+MD5sum: b2a47b76b521666edb6c484274ad9095
+SHA1: 1fff0618fc7e7886291f42aef0825c97c1f9a8f7
+SHA256: 5a7f7a51e61b93bf9cca0a2e8d8acca78de9676f32686cc2f5e63ffdf91791bf
+Section: Tweaks
+Description: 替换系统 SF 图标。
+Author: iosdump
+Name: SF 图标替换
+
+Package: com.iosdump.sfsymbolreplacer
+Version: 1.0.9
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 848
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: com.zxms.sfsymbolreplacer
+Replaces: com.zxms.sfsymbolreplacer
+Provides: com.zxms.sfsymbolreplacer
+Filename: ./debs/com.iosdump.sfsymbolreplacer_1.0.9_iphoneos-arm64.deb
+Size: 111884
+MD5sum: 3b566ede351cf5f165e5ac1d627f53f9
+SHA1: e0add0a9c6d1990cc448b911bfb6b29ec084d4d0
+SHA256: 508a28b0d1586b99475840aef123e31a483cf438e695270a22d484004e3b76c1
+Section: Tweaks
+Description: 替换系统 SF 图标。
+Author: iosdump
+Name: SF 图标替换
+
+Package: com.iosdump.sfsymbolreplacer
+Version: 1.0.9
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 832
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: com.zxms.sfsymbolreplacer
+Replaces: com.zxms.sfsymbolreplacer
+Provides: com.zxms.sfsymbolreplacer
+Filename: ./debs/com.iosdump.sfsymbolreplacer_1.0.9_iphoneos-arm64e.deb
+Size: 109400
+MD5sum: 8955059d9010de126f1ad97422e830d2
+SHA1: 10acbace677e2b6c0648a8a8d0fc51187b63fbe4
+SHA256: 859ac049be942a8b4117fc318b0d1c8a68d68221851bfa2bdc3c94c41ff0b28c
+Section: Tweaks
+Description: 替换系统 SF 图标。
+Author: iosdump
+Name: SF 图标替换
+
 Package: com.iosdump.shellx
 Version: 0.0.2
 Architecture: iphoneos-arm64
